@@ -13,7 +13,7 @@ for f in PATT_UTILS/sql/*; do
 	
 	if [[ ${list_script[*]} =~ "$script_name" ]] && [[ ${list_checksum[*]} =~ "$CHECKSUM_VALUE" ]]
 	then
-		echo "pas de nouveau scripts"
+		echo "le script $script_name est deja dans la base de donnée"
 		# exit 1
 		
 	elif [[ ${list_script[*]} =~ "$script_name" ]] && [[ !(${list_checksum[*]} =~ "$CHECKSUM_VALUE") ]]
