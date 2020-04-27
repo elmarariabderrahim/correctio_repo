@@ -1,13 +1,19 @@
-export username=$1
-export password=$2
 
+WORKSPACE=$1
+export username=$2
+export password=$3
+VERSION_NUMBER=$4
+VERSION_NAME="V$4"
+
+SCRIPT_BASEDIR_PATH=$(dirname "$SCRIPT_PATH")
+. ${SCRIPT_BASEDIR_PATH}/environment_config.sh
 
 list_script=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts;"  ) )
 list_checksum=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select CHECKSUM_VALUE from scripts;"  ) )
 
 
-for f in PATT_UTILS/sql/*; do
-	script_name=$(echo $f| cut -d'/' -f 3)
+for f in $VERSIONED_GIT_SQL_SCRIPTS_DIRECTORY/*; do
+	script_name=$(echo $f| cut -d'/' -f 5)
 	CHECKSUM_VALUE=`md5sum $f | awk '{print $1}'`
 	SCRIPT_NAME_UPPERCASE=$(echo $script_name | tr '[:lower:]' '[:upper:]')
 	
