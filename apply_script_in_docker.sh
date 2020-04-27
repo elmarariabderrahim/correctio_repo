@@ -1,6 +1,12 @@
 #!/bin/bash
-export username=$1
-export password=$2
+export username=$2
+export password=$3
+VERSION_NUMBER=$4
+VERSION_NAME="V$4"
+
+SCRIPT_BASEDIR_PATH=$(dirname "$SCRIPT_PATH")
+. ${SCRIPT_BASEDIR_PATH}/environment_config.sh
+
 #list des scripts qui est passé par succès
 results_of_succeed_scripts=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts where script_state='succes';"  ) )
 # list des scripts échoué
@@ -14,7 +20,7 @@ echo ${docker_mysql_port}
 
 flag=""
 #récupération des scripts 
-for f in PATT_UTILS/sql/*; do
+for f in $VERSIONED_GIT_SQL_SCRIPTS_DIRECTORY/*; do
 	
 script_name=$(echo $f| cut -d'/' -f 3)
 
