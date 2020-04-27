@@ -22,9 +22,9 @@ pipeline {
 			]){
         script{
 			
-		bat "sh  ./get_scripts.sh ${USERNAME}  ${PASSWORD}"
+		bat "sh  ./get_scripts.sh ${WORKSPACE} ${USERNAME}  ${PASSWORD} ${RELEASE_VERSION_NUMBER_TO_USE} "
                     if(CHOIX == 'no_data')
-                        bat "sh  ./export_db_no_data.sh ${USERNAME}  ${PASSWORD}"
+                        bat "sh  ./export_db_no_data.sh ${WORKSPACE} ${USERNAME}  ${PASSWORD} ${RELEASE_VERSION_NUMBER_TO_USE}"
                     else
                         bat "sh  ./exp_script.sh"
                 }
@@ -69,7 +69,7 @@ pipeline {
 						
 					)
 			]){
-        	     bat "sh  ./apply_script_in_docker.sh ${USERNAME}  ${PASSWORD}"
+        	     bat "sh  ./apply_script_in_docker.sh ${WORKSPACE} ${USERNAME}  ${PASSWORD} ${RELEASE_VERSION_NUMBER_TO_USE}"
 		   }
         	              }
         }  
