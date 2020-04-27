@@ -1,5 +1,12 @@
-export username=$1
-export password=$2
+WORKSPACE=$1
+export username=$2
+export password=$3
+VERSION_NUMBER=$4
+VERSION_NAME="V$4"
+
+SCRIPT_BASEDIR_PATH=$(dirname "$SCRIPT_PATH")
+. ${SCRIPT_BASEDIR_PATH}/environment_config.sh
+
 list_script_alredy_succes=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts where script_state='succes';"  ) )
 
 
@@ -31,7 +38,7 @@ Read_DB_Name() {
 }
 
 
-for f in PATT_UTILS/sql/*; do
+for f in $VERSIONED_GIT_SQL_SCRIPTS_DIRECTORY/*; do
 script_name=$(echo $f| cut -d'/' -f 3)
 if [[ ! ${list_script_alredy_succes[*]} =~ $script_name ]]
 then
