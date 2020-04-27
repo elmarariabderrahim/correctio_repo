@@ -39,7 +39,7 @@ Read_DB_Name() {
 
 
 for f in $VERSIONED_GIT_SQL_SCRIPTS_DIRECTORY/*; do
-script_name=$(echo $f| cut -d'/' -f 3)
+script_name=$(echo $f| cut -d'/' -f 5)
 if [[ ! ${list_script_alredy_succes[*]} =~ $script_name ]]
 then
 DB_NAME=`Read_DB_Name $f `
