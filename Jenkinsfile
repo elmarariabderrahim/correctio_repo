@@ -21,6 +21,8 @@ pipeline {
 					)
 			]){
         script{
+			
+		bat "sh  ./get_scripts.sh ${USERNAME}  ${PASSWORD}"
                     if(CHOIX == 'no_data')
                         bat "sh  ./export_db_no_data.sh ${USERNAME}  ${PASSWORD}"
                     else
