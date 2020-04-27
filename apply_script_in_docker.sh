@@ -1,4 +1,5 @@
 #!/bin/bash
+WORKSPACE=$1
 export username=$2
 export password=$3
 VERSION_NUMBER=$4
