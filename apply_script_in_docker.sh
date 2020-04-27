@@ -2,9 +2,9 @@
 export username=$1
 export password=$2
 #list des scripts qui est passé par succès
-results_of_succeed_scripts=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name from scripts where script_state='succes';"  ) )
+results_of_succeed_scripts=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts where script_state='succes';"  ) )
 # list des scripts échoué
-results_of_failed_scripts=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name from scripts where script_state='failed';"  ) )
+results_of_failed_scripts=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts where script_state='failed';"  ) )
 
 str=$(docker port test-mysql)
 IFS=':'
@@ -50,11 +50,11 @@ script_type=$(echo $script_name| cut -d'_' -f 1)
 				if [ "$?" -eq 0 ]; then
 						if [[ ${results_of_failed_scripts[*]} =~ "$script_name" ]] 
 						then
-							mysql -u$username -p$password -Bse "use db5;update scripts set  script_state = 'succes' where script_name='$script_name';"
+							mysql -u$username -p$password -Bse "use PIXID;update scripts set  script_state = 'succes' where script_name='$script_name';"
 							echo " le script $script_name est passer avec succes"
 						else
 							echo " le script $script_name est passer avec succes"
-							mysql -u$username -p$password -Bse "use db5;update scripts set script_state = 'succes' where script_name='$script_name';;"
+							mysql -u$username -p$password -Bse "use PIXID;update scripts set script_state = 'succes' where script_name='$script_name';;"
 						fi
 				else
 						if [[ ${results_of_failed_scripts[*]} =~ "$script_name" ]] 
@@ -63,7 +63,7 @@ script_type=$(echo $script_name| cut -d'_' -f 1)
 						else
 						echo " le script ${script_name} a échoué"
 						 
-						mysql -u$username -p$password -Bse "use db5;update scripts set script_state = 'failed' where script_name='$script_name';"
+						mysql -u$username -p$password -Bse "use PIXID;update scripts set script_state = 'failed' where script_name='$script_name';"
 						fi
 				fi 
 		elif [ $flag -eq 0 ] && (( $script_type >= 200 )) 
@@ -91,10 +91,10 @@ script_type=$(echo $script_name| cut -d'_' -f 1)
 
 					if [[ ${results_of_failed_scripts[*]} =~ "$script_name" ]] 
 						then
-							mysql -u$username -p$password -Bse "use db5;update scripts set  script_state = 'succes' where script_name='$script_name';"
+							mysql -u$username -p$password -Bse "use PIXID;update scripts set  script_state = 'succes' where script_name='$script_name';"
 					else
 						
-							mysql -u$username -p$password -Bse "use db5;update scripts set script_state = 'succes' where script_name='$script_name';"
+							mysql -u$username -p$password -Bse "use PIXID;update scripts set script_state = 'succes' where script_name='$script_name';"
 					fi
 					
 				else
@@ -106,7 +106,7 @@ script_type=$(echo $script_name| cut -d'_' -f 1)
 							echo " le script $script_name n'a pas été corrigé"
 					else
 						echo " l'insertion  a échoué dans $script_name "
-							mysql -u$username -p$password -Bse "use db5;update scripts set script_state = 'failed' where script_name='$script_name';"
+							mysql -u$username -p$password -Bse "use PIXID;update scripts set script_state = 'failed' where script_name='$script_name';"
 					fi
 				fi
 		else
