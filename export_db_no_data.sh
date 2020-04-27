@@ -1,7 +1,6 @@
-#!/bin/bash
 export username=$1
 export password=$2
-list_script_alredy_succes=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name from scripts where script_handled='encour';"  ) )
+list_script_alredy_succes=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name from scripts where script_state='succes';"  ) )
 
 
 list_database_in_script=()
@@ -36,7 +35,7 @@ for f in PATT_UTILS/sql/*; do
 script_name=$(echo $f| cut -d'/' -f 3)
 if [[ ! ${list_script_alredy_succes[*]} =~ $script_name ]]
 then
-DB_NAME=`Read_DB_Name $script_name `
+DB_NAME=`Read_DB_Name $f `
 count=${#list_database_in_script[@]}
 flag1=""
 for (( c=0; c<$count; c++ ))
@@ -65,18 +64,15 @@ count=${#list_database_in_script[@]}
 echo "nombre des bases invoquer dans les scripts est" $count	
 
 
- # importation des bases invoquer dans les scripts
+ # inportation des bases invoquer dans les scripts
 str=$(docker port test-mysql)
 IFS=':'
 read -ra ADDR <<< "$str"
 docker_mysql_port=${ADDR[1]}
 
 for d in ${list_database_in_script[@]}; do
-	echo "le base de donnée exporter est :"+$d
+	echo " ---"+$d
 	mysqldump -u $username -p$password --no-data $d > $d.sql
 	mysql -P $docker_mysql_port --protocol=tcp -u $username -p$password -Bse "DROP DATABASE IF EXISTS $d; CREATE DATABASE  $d; "
 	docker exec -i dadbc6ef4b91  mysql -u $username -p$password  $d < $d.sql
 done
-
-
-
