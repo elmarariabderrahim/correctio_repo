@@ -1,6 +1,6 @@
 export username=$1
 export password=$2
-list_script_alredy_succes=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name from scripts where script_state='succes';"  ) )
+list_script_alredy_succes=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts where script_state='succes';"  ) )
 
 
 list_database_in_script=()
@@ -48,7 +48,7 @@ do
 				fi
 
 done
-mysql -u$username -p$password -Bse "use db5;update scripts set  script_handled ='traite' where script_name='$script_name';"
+mysql -u$username -p$password -Bse "use PIXID;update scripts set  script_handled ='traite' where script_name='$script_name';"
 
 	if [[  $DB_NAME != "NODBINSTRUCTIONINTHEFILE" ]]; then 
 	 	if [[  $flag1 != 1 ]]; then 
