@@ -48,11 +48,11 @@ do
 				fi
 
 done
+mysql -u$username -p$password -Bse "use db5;update scripts set  script_handled ='traite' where script_name='$script_name';"
 
 	if [[  $DB_NAME != "NODBINSTRUCTIONINTHEFILE" ]]; then 
 	 	if [[  $flag1 != 1 ]]; then 
 						list_database_in_script+=($DB_NAME)
-		    	mysql -u$username -p$password -Bse "use db5;update scripts set  script_handled ='traite' where script_name='$script_name';"
 
 				fi
 
