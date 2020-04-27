@@ -9,7 +9,7 @@ SCRIPT_BASEDIR_PATH=$(dirname "$SCRIPT_PATH")
 . ${SCRIPT_BASEDIR_PATH}/environment_config.sh
 
 #list des scripts qui est passé par succès
-results_of_succeed_scripts=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts where script_state='succes';"  ) )
+results_of_succeed_scripts=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts where script_handled='traite' and script_state is null or script_state='failed';"  ) )
 # list des scripts échoué
 results_of_failed_scripts=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts where script_state='failed';"  ) )
 
@@ -30,7 +30,7 @@ script_type=$(echo $script_name| cut -d'_' -f 1)
   
 	
 # verification 
-	if [[ ! ${results_of_succeed_scripts[*]} =~ "$script_name" ]] 
+	if [[ ( ${results_of_succeed_scripts[*]} =~ "$script_name" ) ]] 
 	then
 
 		flag="0"
