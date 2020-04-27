@@ -36,7 +36,7 @@ for f in PATT_UTILS/sql/*; do
 script_name=$(echo $f| cut -d'/' -f 3)
 if [[ ! ${list_script_alredy_succes[*]} =~ $script_name ]]
 then
-DB_NAME=`Read_DB_Name $f `
+DB_NAME=`Read_DB_Name $script_name `
 count=${#list_database_in_script[@]}
 flag1=""
 for (( c=0; c<$count; c++ ))
