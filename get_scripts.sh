@@ -2,8 +2,8 @@ export username=$1
 export password=$2
 
 
-list_script=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name from scripts;"  ) )
-list_checksum=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select CHECKSUM_VALUE from scripts;"  ) )
+list_script=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts;"  ) )
+list_checksum=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select CHECKSUM_VALUE from scripts;"  ) )
 
 
 for f in PATT_UTILS/sql/*; do
@@ -19,12 +19,12 @@ for f in PATT_UTILS/sql/*; do
 	elif [[ ${list_script[*]} =~ "$script_name" ]] && [[ !(${list_checksum[*]} =~ "$CHECKSUM_VALUE") ]]
 	then
 		echo "le script $script_name a été modifier  "
-		mysql -u$username -p$password -Bse "use db5;update scripts set  CHECKSUM_VALUE = '$CHECKSUM_VALUE', script_handled ='encour' where script_name='$script_name';"
+		mysql -u$username -p$password -Bse "use PIXID;update scripts set  CHECKSUM_VALUE = '$CHECKSUM_VALUE', script_handled ='encour' where script_name='$script_name';"
 	else
 		
 
 			echo $DB_NAME_IN_SCRIPT_UPPERCASE $SCRIPT_NAME_UPPERCASE
-			mysql -u$username -p$password -Bse "use db5;insert into scripts (script_name,script_handled,CHECKSUM_VALUE) values('$script_name','encour','$CHECKSUM_VALUE');"
+			mysql -u$username -p$password -Bse "use PIXID;insert into scripts (script_name,script_handled,CHECKSUM_VALUE) values('$script_name','encour','$CHECKSUM_VALUE');"
 		
 	fi
 
