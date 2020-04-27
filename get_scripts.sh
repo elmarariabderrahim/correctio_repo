@@ -9,8 +9,6 @@ list_checksum=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; 
 for f in PATT_UTILS/sql/*; do
 	script_name=$(echo $f| cut -d'/' -f 3)
 	CHECKSUM_VALUE=`md5sum $f | awk '{print $1}'`
-	echo $script_name
-	echo $CHECKSUM_VALUE
 	SCRIPT_NAME_UPPERCASE=$(echo $script_name | tr '[:lower:]' '[:upper:]')
 	
 	if [[ ${list_script[*]} =~ "$script_name" ]] && [[ ${list_checksum[*]} =~ "$CHECKSUM_VALUE" ]]
