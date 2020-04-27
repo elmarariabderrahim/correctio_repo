@@ -7,7 +7,7 @@ VERSION_NAME="V$4"
 SCRIPT_BASEDIR_PATH=$(dirname "$SCRIPT_PATH")
 . ${SCRIPT_BASEDIR_PATH}/environment_config.sh
 
-list_script_alredy_succes=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts where script_state='succes';"  ) )
+list_script_alredy_succes=( $( mysql --batch mysql -u $username -p$password -N -e "use PIXID; select script_name from scripts where script_handled='encour';"  ) )
 
 
 list_database_in_script=()
