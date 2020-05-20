@@ -30,8 +30,8 @@ pipeline {
                // }
 		 //   }
       //}
-         bat  echo "++++"
-          //echo "${JOB_NAME}"
+          echo "++++"
+        echo "${JOB_NAME}"
           
       }
 	 
