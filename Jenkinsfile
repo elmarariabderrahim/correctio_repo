@@ -41,7 +41,9 @@ pipeline {
    }
 	 post { 
 		failure { 
-		    echo 'I failed!'
+			script {
+		              emailext attachLog: true, body: 'L\'audit Sonar des projets Pixid s\'est arrÃªtÃ© sur une erreur.<BR><BR>Voir le fichier de log en piÃ¨ce jointe ou aller sur ${BUILD_URL}. <BR><BR> Equipe CI/CD <BR><BR> Job ${PROJECT_NAME} #${BUILD_NUMBER} ${BUILD_CAUSE} <BR><BR>', mimeType: 'text/html', postsendScript: '$DEFAULT_POSTSEND_SCRIPT', presendScript: '$DEFAULT_PRESEND_SCRIPT', replyTo: '$DEFAULT_REPLYTO', subject: "Erreurs lors de l'Audit sonar par Jenkins sur l'environnement ${ENV_NAME}${SUBJECT_VERSION_PART}", to: 'elmarari.abder@gmail.com'
+			}
             }
    	 }
 }
