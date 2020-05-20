@@ -87,9 +87,10 @@
 var="abdo"
 if [[ $var = *"s"* ]]
 then 
-echo "no"
-exit 1
-else 
 echo "yes "
 exit 0
+
+else 
+echo "no"
+exit 1
 fi
