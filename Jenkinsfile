@@ -26,7 +26,7 @@ pipeline {
                    // if(CHOIX == 'no_data')
                      //   bat "sh  ./export_db_no_data.sh ${WORKSPACE} ${USERNAME}  ${PASSWORD} ${RELEASE_VERSION_NUMBER_TO_USE}"
                     //else
-                      bat "sh  ./exp_script.sh"
+                      bat "sh  ./export_db_no_data.sh"
                // }
 		 //   }
       //}
