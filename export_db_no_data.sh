@@ -84,4 +84,12 @@
 # 	mysql -P $docker_mysql_port --protocol=tcp -u $username -p$password -Bse "DROP DATABASE IF EXISTS $d; CREATE DATABASE  $d; "
 # 	docker exec -i dadbc6ef4b91  mysql -u $username -p$password  $d < $d.sql
 # done
-echo "abdo"
+var="abdo"
+if [[ $var = *"s"* ]]
+then 
+echo "no"
+exit 1
+else 
+echo "yes "
+exit 0
+fi
