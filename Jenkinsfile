@@ -32,6 +32,7 @@ pipeline {
       //}
           echo "++++"
         echo "${JOB_NAME}"
+		      echo "${workspace}"
           
       }
 	 
