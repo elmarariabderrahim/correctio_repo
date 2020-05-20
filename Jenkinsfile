@@ -42,7 +42,7 @@ pipeline {
 	 post { 
 		failure { 
 			script {
-		              emailext attachLog: true, body: 'L\'audit Sonar des projets Pixid s\'est arrÃªtÃ© sur une erreur.<BR><BR>Voir le fichier de log en piÃ¨ce jointe ou aller sur . <BR><BR> Equipe CI/CD <BR><BR> Job  <BR><BR>', subject: "Erreurs lors de l'Audit sonar par Jenkins sur l'environnement ", to: 'elmarari.abder@gmail.com'
+		              emailext  body: 'L\'audit Sonar des projets Pixid s\'est arrÃªtÃ© sur une erreur.<BR><BR>Voir le fichier de log en piÃ¨ce jointe ou aller sur  Equipe CI/CD  Job  ', subject: "Erreurs lors de l'Audit sonar par Jenkins sur l'environnement ", to: 'elmarari.abder@gmail.com'
 			}
             }
    	 }
