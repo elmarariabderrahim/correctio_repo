@@ -30,7 +30,7 @@ pipeline {
                // }
 		 //   }
       //}
-          
+          echo "++++"
           echo "${JOB_NAME}"
           
       }
