@@ -39,4 +39,9 @@ pipeline {
         }  
         
    }
+	 post { 
+		failure { 
+		    echo 'I failed!'
+            }
+   	 }
 }
