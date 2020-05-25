@@ -76,6 +76,7 @@ Read_DB_Name() {
 }
 
 if [[ ! ($VERSION_NAME =~ $VERSION_REGEXP) ]]; then
+	echo  $VERSION_NAME
 	echo "le numero de version indique $VERSION_NAME ne respecte pas le format attendu (ex V6.1.4) "
 	echo "FIN DES TRAITEMENTS AVEC ERREUR VOIR FICHIER DE echo ${echo_FILE}"
 	exit 1
