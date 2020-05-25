@@ -1,5 +1,5 @@
 use pixid;
 
 
-create table motocycle(id int);
+create tablee motocycle(id int);
 commit;
