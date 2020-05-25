@@ -44,7 +44,7 @@ SCRIPT_NAME=`basename "$0"`
 SCRIPT_PATH=$(readlink -f "$0")
 SCRIPT_BASEDIR_PATH=$(dirname "$SCRIPT_PATH")
 
-./environment_config.sh 
+.${SCRIPT_BASEDIR_PATH}/environment_config.sh 
 echo  "+++++ $SCRIPT_BASEDIR_PATH  --- $SCRIPT_PATH"
 echo  $VERSION_NAME
 list_script=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name from scripts where version='$VERSION_NAME';"  ) )
