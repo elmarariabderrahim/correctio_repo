@@ -169,7 +169,7 @@ export REGISTER_FILE=$VERSIONED_SQL_DEPLOYMENT_DIRECTORY/register
 export REJECTED_FILE=$VERSIONED_SQL_DEPLOYMENT_DIRECTORY/rejected
 
 ## Expression reguliere pour le controle des versions de release
-export VERSION_REGEXP='^([0-9]+\.){0,3}(\*|[0-9]+)$'
+export VERSION_REGEXP='^V([0-9]+\.){0,3}(\*|[0-9]+)$'
 
 ## Expression reguliere pour le controle des noms de fichiers sql
 export SCRIPT_NAME_REGEXP='^([0-9]){3,4}(_[0-9]){0,1}_([A-Z]){3,4}(_PF([-_](DEV|INT|INT0|INT1|INT2|INT3|INT4|INT5|REC|REC1|REC2|RCT|RCT1|RCT2|TEST|PROD))+){0,1}_(PIXID|DWHSTAGE|DWHTMP|PROVIDER|MISSION|OFFREEMPLOI){1}_(TI[-_][0-9]{1,10})(_ST[-_][0-9]{1,10})?_([A-Z0-9_-]+)(\.SQL)$'
