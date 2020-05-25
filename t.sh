@@ -235,6 +235,7 @@ if [ $SQL_SCRIPTS_DIRECTORY_COUNT -gt 0 ]
 
 		
 	else	
+		echo $VERSIONED_SQL_SCRIPTS_DIRECTORY
 		echo "Aucun script trouve dans les dossiers $VERSIONED_SQL_SCRIPTS_DIRECTORY ! Veuillez verifier le numero de version indique"
 		echo "FIN DES TRAITEMENTS AVEC SUCCES MAIS IL N'Y AVAIT AUCUN SCRIPT A TRAITER"
 		exit 0
