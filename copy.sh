@@ -46,20 +46,7 @@ then
 
 	mysql --batch mysql -u $username -p$password -N -e "use db5;insert into execution_plateforme(script_id) select script_id from scripts where version = '$VERSION_NAME' and script_id NOT IN (select script_id from execution_plateforme) ;"
 	# mysql --batch mysql -u $username -p$password -N -e "update execution_plateforme set $PLATEFORME = 1 where script_id in (select script_id from scripts where version = '$VERSION_NAME');"
-# si les scripts ont ete deja executer dans la plateform courant 
-echo  $version_exec_in_pf
-		if [[ $version_exec_in_pf = "0" ]]
-		then
-			# la recupiration des version deja executer dans la plateform courant
-			list_id_palteform_alredy_exec=($( mysql --batch mysql -u $username -p$password -N -e  "use db5;SELECT Distinct S.script_platform  FROM scripts S,EXECUTION_PLATEFORME E WHERE S.script_platform =E.PF_$PLATEFORME;" ))
-			nbr_script_valid=($( mysql --batch mysql -u $username -p$password -N -e  "use db5;SELECT COUNT(*) from scripts where version ='$VERSION_NAME' and script_state='valid';" ))
-			if [[ ${list_id_palteform_alredy_exec[@]} =~ "EXEC_$VERSION_NAME" ]] && [[ $nbr_script_valid = ${#SCRIPT_HANDLED_LIST[@]} ]]
-			then
-				
-				echo "cet version $VERSION_NAME est deja tester et deployer dans la plateform $PLATEFORME"
-				exit 1
-			fi
-		fi
+
 	
 
     # mkdir -p  ${VERSIONED_SQL_DEPLOYMENT_DIRECTORY_PROCESSED}

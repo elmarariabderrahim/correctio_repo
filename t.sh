@@ -45,7 +45,6 @@ SCRIPT_PATH=$(readlink -f "$0")
 SCRIPT_BASEDIR_PATH=$(dirname "$SCRIPT_PATH")
 
 . "${SCRIPT_BASEDIR_PATH}/environment_config.sh"
-echo  "+++++ $SCRIPT_BASEDIR_PATH  --- $SCRIPT_PATH"
 echo  $VERSION_NAME
 list_script=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name from scripts where version='$VERSION_NAME';"  ) )
 list_checksum=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select CHECKSUM_VALUE from scripts where version='$VERSION_NAME';"  ) )
