@@ -1,0 +1,1393 @@
+2020-05-09 00:07:10 DATE_NOW 2020-05-09-00-07-10
+2020-05-09 00:07:10 PLATEFORME RCT
+2020-05-09 00:07:10 SQL_SCRIPTS_DIRECTORY_COUNT 2
+2020-05-09 00:07:11 creation du repertoire /appli/deployment/sql/RCT/6.1.4 
+2020-05-09 00:07:11 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.4 
+2020-05-09 00:07:11  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.4 
+2020-05-09 00:07:11 ------------------------------------------------------------------------------------------
+2020-05-09 00:07:11 inode 001_ALDL_PIXID_TI_138540_SGHJKL.sql
+2020-05-09 00:07:12 ------------------------------------------------------------------------------------------
+2020-05-09 00:07:12 inode 013_ABDO_DWHSTAGE_TI_67899_TABLEP.sql
+2020-05-09 00:07:12 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 00:48:16 DATE_NOW 2020-05-09-00-48-16
+2020-05-09 00:48:16 PLATEFORME RCT
+2020-05-09 00:48:16 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 00:48:16 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 00:48:16 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 00:48:17  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 00:48:17 ------------------------------------------------------------------------------------------
+2020-05-09 00:48:17 inode 001_AEL_PF_INT_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 00:48:17 Le fichier 001_AEL_PF_INT_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 00:48:18 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 00:48:19 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 00:48:19 NAME_PF_PART_TEMP 001_AEL_PF_INT_|_TI_67899_SJNLSFL.SQL
+2020-05-09 00:48:19 NAME_PF_PART 001_AEL_PF_INT_
+2020-05-09 00:48:19 NAME_PF_PART _INT_
+2020-05-09 00:48:19 NAME_PF_PART _INT_INT0_INT1_INT2_INT3_INT4_INT5_
+2020-05-09 00:48:19 SCRIPT_PF_DEPENDANT 1
+2020-05-09 00:48:19 ------------------------------------------------------------------------------------------
+2020-05-09 00:48:19 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 00:48:20 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 00:48:20 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 00:48:21 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 00:48:21 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 00:48:21 NAME_PF_PART 002_AEL_
+2020-05-09 00:48:21 NAME_PF_PART 
+2020-05-09 00:48:21 SCRIPT_PF_DEPENDANT 0
+2020-05-09 00:48:22 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 00:48:22 ------------------------------------------------------------------------------------------
+2020-05-09 00:48:22 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 00:48:23 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 00:48:25 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 00:48:26 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 00:48:26 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 00:48:26 NAME_PF_PART 200_AEL_
+2020-05-09 00:48:27 NAME_PF_PART 
+2020-05-09 00:48:27 SCRIPT_PF_DEPENDANT 0
+2020-05-09 00:48:27 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 00:48:28 ------------------------------------------------------------------------------------------
+2020-05-09 00:48:28 inode 201_JEE_PIXID_TI_9875_INSERT.sql
+2020-05-09 00:48:29 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 00:48:31 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 00:48:32 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 00:48:32 NAME_PF_PART_TEMP 201_JEE_|_TI_9875_INSERT.SQL
+2020-05-09 00:48:32 NAME_PF_PART 201_JEE_
+2020-05-09 00:48:32 NAME_PF_PART 
+2020-05-09 00:48:33 SCRIPT_PF_DEPENDANT 0
+2020-05-09 00:48:33 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 00:48:33 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 01:18:02 DATE_NOW 2020-05-09-01-18-02
+2020-05-09 01:18:02 PLATEFORME RCT
+2020-05-09 01:18:03 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 01:18:03 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 01:18:03 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 01:18:03  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 01:18:03 ------------------------------------------------------------------------------------------
+2020-05-09 01:18:03 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 01:18:04 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:18:05 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:18:05 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:18:05 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 01:18:05 NAME_PF_PART 001_AEL_
+2020-05-09 01:18:05 NAME_PF_PART 
+2020-05-09 01:18:05 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:18:05 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:18:05 ------------------------------------------------------------------------------------------
+2020-05-09 01:18:06 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 01:18:06 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:18:07 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:18:07 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:18:07 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 01:18:07 NAME_PF_PART 002_AEL_
+2020-05-09 01:18:07 NAME_PF_PART 
+2020-05-09 01:18:07 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:18:07 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:18:07 ------------------------------------------------------------------------------------------
+2020-05-09 01:18:08 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 01:18:08 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:18:08 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:18:09 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:18:09 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 01:18:09 NAME_PF_PART 200_AEL_
+2020-05-09 01:18:09 NAME_PF_PART 
+2020-05-09 01:18:09 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:18:09 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:18:09 ------------------------------------------------------------------------------------------
+2020-05-09 01:18:09 inode 201_JEE_PIXID_TI_9875_INSERT.sql
+2020-05-09 01:18:10 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:18:10 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:18:11 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:18:11 NAME_PF_PART_TEMP 201_JEE_|_TI_9875_INSERT.SQL
+2020-05-09 01:18:11 NAME_PF_PART 201_JEE_
+2020-05-09 01:18:11 NAME_PF_PART 
+2020-05-09 01:18:11 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:18:11 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:18:11 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 01:19:06 DATE_NOW 2020-05-09-01-19-06
+2020-05-09 01:19:06 PLATEFORME RCT
+2020-05-09 01:19:07 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 01:19:07 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 01:19:07 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 01:19:08  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 01:19:08 ------------------------------------------------------------------------------------------
+2020-05-09 01:19:08 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 01:19:09 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:19:10 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:19:10 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:19:10 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 01:19:10 NAME_PF_PART 001_AEL_
+2020-05-09 01:19:11 NAME_PF_PART 
+2020-05-09 01:19:11 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:19:11 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:19:11 ------------------------------------------------------------------------------------------
+2020-05-09 01:19:11 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 01:19:11 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:19:12 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:19:12 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:19:12 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 01:19:13 NAME_PF_PART 002_AEL_
+2020-05-09 01:19:13 NAME_PF_PART 
+2020-05-09 01:19:13 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:19:14 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:19:14 ------------------------------------------------------------------------------------------
+2020-05-09 01:19:14 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 01:19:15 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:19:17 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:19:18 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:19:18 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 01:19:18 NAME_PF_PART 200_AEL_
+2020-05-09 01:19:18 NAME_PF_PART 
+2020-05-09 01:19:19 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:19:19 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:19:19 ------------------------------------------------------------------------------------------
+2020-05-09 01:19:19 inode 201_JEE_PIXID_TI_9875_INSERT.sql
+2020-05-09 01:19:20 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:19:21 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:19:21 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:19:21 NAME_PF_PART_TEMP 201_JEE_|_TI_9875_INSERT.SQL
+2020-05-09 01:19:21 NAME_PF_PART 201_JEE_
+2020-05-09 01:19:21 NAME_PF_PART 
+2020-05-09 01:19:21 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:19:21 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:19:22 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 01:27:20 DATE_NOW 2020-05-09-01-27-19
+2020-05-09 01:27:20 PLATEFORME RCT
+2020-05-09 01:27:20 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 01:27:20 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 01:27:20 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 01:27:21  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 01:27:21 ------------------------------------------------------------------------------------------
+2020-05-09 01:27:21 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 01:27:21 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:27:22 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:27:22 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:27:22 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 01:27:23 NAME_PF_PART 001_AEL_
+2020-05-09 01:27:23 NAME_PF_PART 
+2020-05-09 01:27:23 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:27:23 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:27:23 ------------------------------------------------------------------------------------------
+2020-05-09 01:27:23 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 01:27:23 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:27:24 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:27:24 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:27:24 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 01:27:25 NAME_PF_PART 002_AEL_
+2020-05-09 01:27:25 NAME_PF_PART 
+2020-05-09 01:27:25 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:27:25 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:27:25 ------------------------------------------------------------------------------------------
+2020-05-09 01:27:26 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 01:27:27 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:27:29 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:27:29 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:27:29 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 01:27:30 NAME_PF_PART 200_AEL_
+2020-05-09 01:27:30 NAME_PF_PART 
+2020-05-09 01:27:30 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:27:30 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:27:31 ------------------------------------------------------------------------------------------
+2020-05-09 01:27:31 inode 201_JEE_PIXID_TI_9875_INSERT.sql
+2020-05-09 01:27:31 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:27:32 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:27:32 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:27:32 NAME_PF_PART_TEMP 201_JEE_|_TI_9875_INSERT.SQL
+2020-05-09 01:27:32 NAME_PF_PART 201_JEE_
+2020-05-09 01:27:32 NAME_PF_PART 
+2020-05-09 01:27:33 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:27:33 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:27:33 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 01:38:31 DATE_NOW 2020-05-09-01-38-31
+2020-05-09 01:38:31 PLATEFORME RCT
+2020-05-09 01:38:31 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 01:38:31 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 01:38:32 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 01:38:32  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 01:38:32 ------------------------------------------------------------------------------------------
+2020-05-09 01:38:32 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 01:38:33 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:38:34 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:38:34 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:38:34 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 01:38:34 NAME_PF_PART 001_AEL_
+2020-05-09 01:38:34 NAME_PF_PART 
+2020-05-09 01:38:34 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:38:35 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:38:35 ------------------------------------------------------------------------------------------
+2020-05-09 01:38:35 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 01:38:35 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:38:36 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:38:36 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:38:36 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 01:38:36 NAME_PF_PART 002_AEL_
+2020-05-09 01:38:36 NAME_PF_PART 
+2020-05-09 01:38:37 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:38:37 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:38:37 ------------------------------------------------------------------------------------------
+2020-05-09 01:38:37 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 01:38:37 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:38:38 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:38:38 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 01:38:38 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 01:38:39 NAME_PF_PART 200_AEL_
+2020-05-09 01:38:39 NAME_PF_PART 
+2020-05-09 01:38:39 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:38:39 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:38:39 ------------------------------------------------------------------------------------------
+2020-05-09 01:38:39 inode 201_JEE_PIXID_TI_9875_INSERT.sql
+2020-05-09 01:38:39 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 01:38:40 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:38:40 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 01:38:40 NAME_PF_PART_TEMP 201_JEE_|_TI_9875_INSERT.SQL
+2020-05-09 01:38:41 NAME_PF_PART 201_JEE_
+2020-05-09 01:38:41 NAME_PF_PART 
+2020-05-09 01:38:41 SCRIPT_PF_DEPENDANT 0
+2020-05-09 01:38:41 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 01:38:41 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 13:53:17 DATE_NOW 2020-05-09-13-53-17
+2020-05-09 13:53:18 PLATEFORME RCT
+2020-05-09 13:53:20 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 13:53:20 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 13:53:21 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 13:53:22  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 13:53:23 ------------------------------------------------------------------------------------------
+2020-05-09 13:53:23 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 13:53:24 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 13:53:26 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 13:53:26 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 13:53:27 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 13:53:27 NAME_PF_PART 001_AEL_
+2020-05-09 13:53:27 NAME_PF_PART 
+2020-05-09 13:53:27 SCRIPT_PF_DEPENDANT 0
+2020-05-09 13:53:29 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 13:53:29 ------------------------------------------------------------------------------------------
+2020-05-09 13:53:29 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 13:53:30 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 13:53:32 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 13:53:33 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 13:53:33 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 13:53:33 NAME_PF_PART 002_AEL_
+2020-05-09 13:53:33 NAME_PF_PART 
+2020-05-09 13:53:33 SCRIPT_PF_DEPENDANT 0
+2020-05-09 13:53:34 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 13:53:35 ------------------------------------------------------------------------------------------
+2020-05-09 13:53:35 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 13:53:36 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 13:53:38 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 13:53:38 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 13:53:38 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 13:53:38 NAME_PF_PART 200_AEL_
+2020-05-09 13:53:39 NAME_PF_PART 
+2020-05-09 13:53:39 SCRIPT_PF_DEPENDANT 0
+2020-05-09 13:53:39 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 13:53:40 ------------------------------------------------------------------------------------------
+2020-05-09 13:53:40 inode 201_JEE_PIXID_TI_9875_INSERT.sql
+2020-05-09 13:53:41 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 13:53:43 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 13:53:43 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 13:53:43 NAME_PF_PART_TEMP 201_JEE_|_TI_9875_INSERT.SQL
+2020-05-09 13:53:44 NAME_PF_PART 201_JEE_
+2020-05-09 13:53:44 NAME_PF_PART 
+2020-05-09 13:53:44 SCRIPT_PF_DEPENDANT 0
+2020-05-09 13:53:45 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 13:53:45 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 14:00:42 DATE_NOW 2020-05-09-14-00-42
+2020-05-09 14:00:42 PLATEFORME RCT
+2020-05-09 14:00:43 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 14:00:43 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 14:00:43 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:00:43  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:00:44 ------------------------------------------------------------------------------------------
+2020-05-09 14:00:44 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 14:00:44 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:00:45 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:00:45 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:00:45 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 14:00:45 NAME_PF_PART 001_AEL_
+2020-05-09 14:00:46 NAME_PF_PART 
+2020-05-09 14:00:46 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:00:46 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:00:46 ------------------------------------------------------------------------------------------
+2020-05-09 14:00:46 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 14:00:46 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:00:47 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:00:47 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:00:47 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 14:00:48 NAME_PF_PART 002_AEL_
+2020-05-09 14:00:48 NAME_PF_PART 
+2020-05-09 14:00:48 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:00:48 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:00:48 ------------------------------------------------------------------------------------------
+2020-05-09 14:00:48 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 14:00:48 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:00:49 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:00:49 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:00:49 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 14:00:50 NAME_PF_PART 200_AEL_
+2020-05-09 14:00:50 NAME_PF_PART 
+2020-05-09 14:00:50 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:00:51 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:00:51 ------------------------------------------------------------------------------------------
+2020-05-09 14:00:52 inode 201_JEE_PIXID_TI_9875_INSERT.sql
+2020-05-09 14:00:53 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:00:54 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:00:55 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:00:55 NAME_PF_PART_TEMP 201_JEE_|_TI_9875_INSERT.SQL
+2020-05-09 14:00:55 NAME_PF_PART 201_JEE_
+2020-05-09 14:00:55 NAME_PF_PART 
+2020-05-09 14:00:55 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:00:56 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:00:57 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 14:02:56 DATE_NOW 2020-05-09-14-02-56
+2020-05-09 14:02:56 PLATEFORME RCT
+2020-05-09 14:02:56 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 14:02:56 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 14:02:57 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:02:57  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:02:57 ------------------------------------------------------------------------------------------
+2020-05-09 14:02:57 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 14:02:57 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:02:58 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:02:58 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:02:58 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 14:02:59 NAME_PF_PART 001_AEL_
+2020-05-09 14:02:59 NAME_PF_PART 
+2020-05-09 14:02:59 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:03:00 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:03:01 ------------------------------------------------------------------------------------------
+2020-05-09 14:03:01 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 14:03:02 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:03:04 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:03:04 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:03:04 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 14:03:05 NAME_PF_PART 002_AEL_
+2020-05-09 14:03:05 NAME_PF_PART 
+2020-05-09 14:03:05 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:03:06 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:03:06 ------------------------------------------------------------------------------------------
+2020-05-09 14:03:06 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 14:03:06 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:03:07 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:03:08 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:03:08 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 14:03:08 NAME_PF_PART 200_AEL_
+2020-05-09 14:03:08 NAME_PF_PART 
+2020-05-09 14:03:08 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:03:10 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:03:10 ------------------------------------------------------------------------------------------
+2020-05-09 14:03:11 inode 201_JEE_PIXID_TI_9875_INSERT.sql
+2020-05-09 14:03:12 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:03:13 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:03:14 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:03:14 NAME_PF_PART_TEMP 201_JEE_|_TI_9875_INSERT.SQL
+2020-05-09 14:03:14 NAME_PF_PART 201_JEE_
+2020-05-09 14:03:14 NAME_PF_PART 
+2020-05-09 14:03:14 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:03:15 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:03:16 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 14:35:55 DATE_NOW 2020-05-09-14-35-55
+2020-05-09 14:35:55 PLATEFORME RCT
+2020-05-09 14:35:56 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 14:35:56 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 14:35:56 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:35:56  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:35:56 ------------------------------------------------------------------------------------------
+2020-05-09 14:35:56 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 14:35:57 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:35:58 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:35:58 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:35:58 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 14:35:58 NAME_PF_PART 001_AEL_
+2020-05-09 14:35:58 NAME_PF_PART 
+2020-05-09 14:35:58 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:35:59 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:35:59 ------------------------------------------------------------------------------------------
+2020-05-09 14:35:59 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 14:36:00 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:36:00 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:36:01 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:36:01 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 14:36:01 NAME_PF_PART 002_AEL_
+2020-05-09 14:36:01 NAME_PF_PART 
+2020-05-09 14:36:01 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:36:02 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:36:02 ------------------------------------------------------------------------------------------
+2020-05-09 14:36:02 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 14:36:02 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:36:03 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:36:03 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:36:03 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 14:36:04 NAME_PF_PART 200_AEL_
+2020-05-09 14:36:04 NAME_PF_PART 
+2020-05-09 14:36:04 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:36:05 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:36:05 ------------------------------------------------------------------------------------------
+2020-05-09 14:36:06 inode 201_JEE_PIXID_TI_9875_INSERT.sql
+2020-05-09 14:36:07 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:36:09 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:36:09 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:36:09 NAME_PF_PART_TEMP 201_JEE_|_TI_9875_INSERT.SQL
+2020-05-09 14:36:09 NAME_PF_PART 201_JEE_
+2020-05-09 14:36:10 NAME_PF_PART 
+2020-05-09 14:36:10 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:36:10 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:36:10 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 14:40:41 DATE_NOW 2020-05-09-14-40-41
+2020-05-09 14:40:41 PLATEFORME RCT
+2020-05-09 14:40:41 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 14:40:42 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 14:40:42 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:40:42  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:40:42 ------------------------------------------------------------------------------------------
+2020-05-09 14:40:42 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 14:40:43 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:40:44 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:40:44 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:40:44 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 14:40:44 NAME_PF_PART 001_AEL_
+2020-05-09 14:40:44 NAME_PF_PART 
+2020-05-09 14:40:44 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:40:45 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:40:45 ------------------------------------------------------------------------------------------
+2020-05-09 14:40:45 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 14:40:45 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:40:46 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:40:46 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:40:46 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 14:40:46 NAME_PF_PART 002_AEL_
+2020-05-09 14:40:46 NAME_PF_PART 
+2020-05-09 14:40:46 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:40:47 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:40:47 ------------------------------------------------------------------------------------------
+2020-05-09 14:40:47 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 14:40:48 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:40:50 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:40:51 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:40:51 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 14:40:51 NAME_PF_PART 200_AEL_
+2020-05-09 14:40:51 NAME_PF_PART 
+2020-05-09 14:40:51 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:40:52 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:40:52 ------------------------------------------------------------------------------------------
+2020-05-09 14:40:52 inode 201_JEE_PIXID_TI_9875_INSERT.sql
+2020-05-09 14:40:52 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:40:53 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:40:53 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 14:40:54 NAME_PF_PART_TEMP 201_JEE_|_TI_9875_INSERT.SQL
+2020-05-09 14:40:54 NAME_PF_PART 201_JEE_
+2020-05-09 14:40:54 NAME_PF_PART 
+2020-05-09 14:40:54 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:40:54 Le fichier 201_JEE_PIXID_TI_9875_INSERT.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:40:54 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 14:54:38 DATE_NOW 2020-05-09-14-54-38
+2020-05-09 14:54:38 PLATEFORME RCT
+2020-05-09 14:54:38 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 14:54:39 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 14:54:39 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:54:39  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:54:39 ------------------------------------------------------------------------------------------
+2020-05-09 14:54:39 inode 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql
+2020-05-09 14:54:40 Le fichier 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:54:41 DB_NAME_IN_SCRIPT_UPPERCASE MYPIXID
+2020-05-09 14:54:43 Le fichier 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 14:54:43 ------------------------------------------------------------------------------------------
+2020-05-09 14:54:44 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 14:54:44 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:54:46 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:54:46 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:54:46 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 14:54:47 NAME_PF_PART 002_AEL_
+2020-05-09 14:54:47 NAME_PF_PART 
+2020-05-09 14:54:47 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:54:49 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:54:49 ------------------------------------------------------------------------------------------
+2020-05-09 14:54:49 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 14:54:50 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:54:52 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:54:52 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:54:53 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 14:54:53 NAME_PF_PART 200_AEL_
+2020-05-09 14:54:53 NAME_PF_PART 
+2020-05-09 14:54:53 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:54:54 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:54:54 ------------------------------------------------------------------------------------------
+2020-05-09 14:54:54 inode 201_JEE_MYPIXID_TI_9875_INSERT.sql
+2020-05-09 14:54:54 Le fichier 201_JEE_MYPIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:54:55 DB_NAME_IN_SCRIPT_UPPERCASE MYPIXIDL
+2020-05-09 14:54:56 Le fichier 201_JEE_MYPIXID_TI_9875_INSERT.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 14:54:56 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 14:56:39 DATE_NOW 2020-05-09-14-56-39
+2020-05-09 14:56:39 PLATEFORME RCT
+2020-05-09 14:56:39 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 14:56:39 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 14:56:40 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:56:40  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:56:40 ------------------------------------------------------------------------------------------
+2020-05-09 14:56:40 inode 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql
+2020-05-09 14:56:40 Le fichier 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:56:42 DB_NAME_IN_SCRIPT_UPPERCASE MYPIXID
+2020-05-09 14:56:42 le script 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql est encour mal nomme
+2020-05-09 14:56:42 ------------------------------------------------------------------------------------------
+2020-05-09 14:56:42 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 14:56:42 ------------------------------------------------------------------------------------------
+2020-05-09 14:56:42 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 14:56:43 ------------------------------------------------------------------------------------------
+2020-05-09 14:56:43 inode 201_JEE_MYPIXID_TI_9875_INSERT.sql
+2020-05-09 14:56:43 Le fichier 201_JEE_MYPIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:56:44 DB_NAME_IN_SCRIPT_UPPERCASE MYPIXID
+2020-05-09 14:56:44 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 14:58:28 DATE_NOW 2020-05-09-14-58-28
+2020-05-09 14:58:28 PLATEFORME RCT
+2020-05-09 14:58:29 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 14:58:29 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 14:58:29 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:58:29  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:58:30 ------------------------------------------------------------------------------------------
+2020-05-09 14:58:30 inode 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql
+2020-05-09 14:58:30 Le fichier 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:58:31 DB_NAME_IN_SCRIPT_UPPERCASE MYPIXID
+2020-05-09 14:58:31 le script 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql est encour mal nomme
+2020-05-09 14:58:31 ------------------------------------------------------------------------------------------
+2020-05-09 14:58:32 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 14:58:32 ------------------------------------------------------------------------------------------
+2020-05-09 14:58:32 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 14:58:32 ------------------------------------------------------------------------------------------
+2020-05-09 14:58:32 inode 201_JEE_MYPIXID_TI_9875_INSERT.sql
+2020-05-09 14:58:32 Le fichier 201_JEE_MYPIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:58:33 DB_NAME_IN_SCRIPT_UPPERCASE MYPIXID
+2020-05-09 14:58:33 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 14:58:48 DATE_NOW 2020-05-09-14-58-48
+2020-05-09 14:58:49 PLATEFORME RCT
+2020-05-09 14:58:49 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 14:58:49 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 14:58:49 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:58:49  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 14:58:50 ------------------------------------------------------------------------------------------
+2020-05-09 14:58:50 inode 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql
+2020-05-09 14:58:50 Le fichier 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:58:51 DB_NAME_IN_SCRIPT_UPPERCASE MYPIXID
+2020-05-09 14:58:51 Le fichier 001_AEL_MYPIXID_TI_67899_sjnlsfl.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 14:58:52 ------------------------------------------------------------------------------------------
+2020-05-09 14:58:52 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 14:58:52 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:58:53 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:58:53 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:58:53 NAME_PF_PART_TEMP 002_AEL_|_TI_6789967_ALLSCRIP.SQL
+2020-05-09 14:58:53 NAME_PF_PART 002_AEL_
+2020-05-09 14:58:53 NAME_PF_PART 
+2020-05-09 14:58:53 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:58:53 Le fichier 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:58:53 ------------------------------------------------------------------------------------------
+2020-05-09 14:58:54 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 14:58:54 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:58:54 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:58:55 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 14:58:55 NAME_PF_PART_TEMP 200_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 14:58:55 NAME_PF_PART 200_AEL_
+2020-05-09 14:58:55 NAME_PF_PART 
+2020-05-09 14:58:55 SCRIPT_PF_DEPENDANT 0
+2020-05-09 14:58:55 Le fichier 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 14:58:56 ------------------------------------------------------------------------------------------
+2020-05-09 14:58:56 inode 201_JEE_MYPIXID_TI_9875_INSERT.sql
+2020-05-09 14:58:57 Le fichier 201_JEE_MYPIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 14:58:59 DB_NAME_IN_SCRIPT_UPPERCASE MYPIXID
+2020-05-09 14:59:00 Le fichier 201_JEE_MYPIXID_TI_9875_INSERT.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 14:59:00 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:00:08 DATE_NOW 2020-05-09-15-00-07
+2020-05-09 15:00:08 PLATEFORME RCT
+2020-05-09 15:00:08 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 15:00:08 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 15:00:08 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 15:00:09  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 15:00:09 ------------------------------------------------------------------------------------------
+2020-05-09 15:00:09 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 15:00:09 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:00:10 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:00:11 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:00:11 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:00:11 NAME_PF_PART 001_AEL_
+2020-05-09 15:00:11 NAME_PF_PART 
+2020-05-09 15:00:11 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:00:11 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:00:12 ------------------------------------------------------------------------------------------
+2020-05-09 15:00:12 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 15:00:12 ------------------------------------------------------------------------------------------
+2020-05-09 15:00:12 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 15:00:12 ------------------------------------------------------------------------------------------
+2020-05-09 15:00:12 inode 201_JEE_MYPIXID_TI_9875_INSERT.sql
+2020-05-09 15:00:12 Le fichier 201_JEE_MYPIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:00:13 DB_NAME_IN_SCRIPT_UPPERCASE MYPIXID
+2020-05-09 15:00:13 le script 201_JEE_MYPIXID_TI_9875_INSERT.sql est encour mal nomme
+2020-05-09 15:00:13 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:01:06 DATE_NOW 2020-05-09-15-01-06
+2020-05-09 15:01:06 PLATEFORME RCT
+2020-05-09 15:01:06 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 15:01:06 creation du repertoire /appli/deployment/sql/RCT/6.1.2 
+2020-05-09 15:01:07 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 15:01:07  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.2 
+2020-05-09 15:01:07 ------------------------------------------------------------------------------------------
+2020-05-09 15:01:07 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 15:01:07 ------------------------------------------------------------------------------------------
+2020-05-09 15:01:08 inode 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql
+2020-05-09 15:01:08 ------------------------------------------------------------------------------------------
+2020-05-09 15:01:08 inode 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 15:01:08 ------------------------------------------------------------------------------------------
+2020-05-09 15:01:08 inode 201_JEE_MYPIXID_TI_9875_INSERT.sql
+2020-05-09 15:01:08 Le fichier 201_JEE_MYPIXID_TI_9875_INSERT.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:01:09 DB_NAME_IN_SCRIPT_UPPERCASE MYPIXID
+2020-05-09 15:01:09 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:06:22 DATE_NOW 2020-05-09-15-06-22
+2020-05-09 15:06:22 PLATEFORME RCT
+2020-05-09 15:06:22 SQL_SCRIPTS_DIRECTORY_COUNT 2
+2020-05-09 15:06:22 creation du repertoire /appli/deployment/sql/RCT/6.1.4 
+2020-05-09 15:06:22 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.4 
+2020-05-09 15:06:23  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.4 
+2020-05-09 15:06:23 ------------------------------------------------------------------------------------------
+2020-05-09 15:06:23 inode 001_ALDL_PIXID_TI_138540_SGHJKL.sql
+2020-05-09 15:06:23 Le fichier 001_ALDL_PIXID_TI_138540_SGHJKL.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:06:24 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:06:24 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:06:24 NAME_PF_PART_TEMP 001_ALDL_|_TI_138540_SGHJKL.SQL
+2020-05-09 15:06:25 NAME_PF_PART 001_ALDL_
+2020-05-09 15:06:25 NAME_PF_PART 
+2020-05-09 15:06:25 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:06:25 Le fichier 001_ALDL_PIXID_TI_138540_SGHJKL.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:06:26 ------------------------------------------------------------------------------------------
+2020-05-09 15:06:26 inode 013_ABDO_DWHSTAGE_TI_67899_TABLEP.sql
+2020-05-09 15:06:27 Le fichier 013_ABDO_DWHSTAGE_TI_67899_TABLEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:06:29 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 15:06:29 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 15:06:29 NAME_PF_PART_TEMP 013_ABDO_|_TI_67899_TABLEP.SQL
+2020-05-09 15:06:30 NAME_PF_PART 013_ABDO_
+2020-05-09 15:06:30 NAME_PF_PART 
+2020-05-09 15:06:30 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:06:30 Le fichier 013_ABDO_DWHSTAGE_TI_67899_TABLEP.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:06:31 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 15:10:29 DATE_NOW 2020-05-09-15-10-29
+2020-05-09 15:10:30 PLATEFORME RCT
+2020-05-09 15:10:30 SQL_SCRIPTS_DIRECTORY_COUNT 2
+2020-05-09 15:10:30 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:10:30 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:10:31  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:10:31 ------------------------------------------------------------------------------------------
+2020-05-09 15:10:31 inode 001_MED_db5_TI_138540_SGHJKL.sql
+2020-05-09 15:10:31 Le fichier 001_MED_db5_TI_138540_SGHJKL.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:10:32 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:10:33 Le fichier 001_MED_db5_TI_138540_SGHJKL.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:10:33 ------------------------------------------------------------------------------------------
+2020-05-09 15:10:34 inode 013_KZD_db_TI_67899_TABLEP.sql
+2020-05-09 15:10:34 Le fichier 013_KZD_db_TI_67899_TABLEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:10:36 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:10:37 Le fichier 013_KZD_db_TI_67899_TABLEP.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:10:37 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:11:20 DATE_NOW 2020-05-09-15-11-20
+2020-05-09 15:11:20 PLATEFORME RCT
+2020-05-09 15:11:20 SQL_SCRIPTS_DIRECTORY_COUNT 2
+2020-05-09 15:11:20 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:11:21 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:11:21  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:11:21 ------------------------------------------------------------------------------------------
+2020-05-09 15:11:21 inode 001_MED_db5_TI_138540_SGHJKL.sql
+2020-05-09 15:11:21 Le fichier 001_MED_db5_TI_138540_SGHJKL.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:11:22 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:11:23 ------------------------------------------------------------------------------------------
+2020-05-09 15:11:23 inode 013_KZD_db_TI_67899_TABLEP.sql
+2020-05-09 15:11:23 Le fichier 013_KZD_db_TI_67899_TABLEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:11:24 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:11:24 le script 013_KZD_db_TI_67899_TABLEP.sql est encour mal nomme
+2020-05-09 15:11:24 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:11:54 DATE_NOW 2020-05-09-15-11-54
+2020-05-09 15:11:54 PLATEFORME RCT
+2020-05-09 15:11:54 SQL_SCRIPTS_DIRECTORY_COUNT 2
+2020-05-09 15:11:55 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:11:55 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:11:55  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:11:55 ------------------------------------------------------------------------------------------
+2020-05-09 15:11:55 inode 001_MED_db5_TI_138540_SGHJKL.sql
+2020-05-09 15:11:56 Le fichier 001_MED_db5_TI_138540_SGHJKL.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:11:57 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:11:57 ------------------------------------------------------------------------------------------
+2020-05-09 15:11:57 inode 013_KZD_db_TI_67899_TABLEP.sql
+2020-05-09 15:11:57 Le fichier 013_KZD_db_TI_67899_TABLEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:11:58 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:11:58 le script 013_KZD_db_TI_67899_TABLEP.sql est encour mal nomme
+2020-05-09 15:11:58 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:13:57 DATE_NOW 2020-05-09-15-13-57
+2020-05-09 15:13:58 PLATEFORME RCT
+2020-05-09 15:13:58 SQL_SCRIPTS_DIRECTORY_COUNT 2
+2020-05-09 15:13:58 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:13:58 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:13:59  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:13:59 ------------------------------------------------------------------------------------------
+2020-05-09 15:13:59 inode 001_MED_db5_TI_138540_SGHJgfKL.sql
+2020-05-09 15:13:59 Le fichier 001_MED_db5_TI_138540_SGHJgfKL.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:14:00 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:14:01 Le fichier 001_MED_db5_TI_138540_SGHJgfKL.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:14:01 ------------------------------------------------------------------------------------------
+2020-05-09 15:14:01 inode 013_KZD_db_TI_67899_TABLegEP.sql
+2020-05-09 15:14:01 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:14:02 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:14:02 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:14:02 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:14:47 DATE_NOW 2020-05-09-15-14-47
+2020-05-09 15:14:47 PLATEFORME RCT
+2020-05-09 15:14:47 SQL_SCRIPTS_DIRECTORY_COUNT 2
+2020-05-09 15:14:47 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:14:48 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:14:48  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:14:48 ------------------------------------------------------------------------------------------
+2020-05-09 15:14:48 inode 001_MED_db5_TI_138540_SGHJgfKL.sql
+2020-05-09 15:14:48 Le fichier 001_MED_db5_TI_138540_SGHJgfKL.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:14:49 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:14:50 le script 001_MED_db5_TI_138540_SGHJgfKL.sql est encour mal nomme
+2020-05-09 15:14:50 ------------------------------------------------------------------------------------------
+2020-05-09 15:14:50 inode 013_KZD_db_TI_67899_TABLegEP.sql
+2020-05-09 15:14:50 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:14:51 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:14:51 le script 013_KZD_db_TI_67899_TABLegEP.sql est encour mal nomme
+2020-05-09 15:14:51 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:15:57 DATE_NOW 2020-05-09-15-15-57
+2020-05-09 15:15:58 PLATEFORME RCT
+2020-05-09 15:15:58 SQL_SCRIPTS_DIRECTORY_COUNT 2
+2020-05-09 15:15:58 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:15:58 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:15:58  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:15:59 ------------------------------------------------------------------------------------------
+2020-05-09 15:15:59 inode 001_MED_db5_TI_138540_SGHJgfKL.sql
+2020-05-09 15:15:59 Le fichier 001_MED_db5_TI_138540_SGHJgfKL.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:16:00 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:16:00 le script 001_MED_db5_TI_138540_SGHJgfKL.sql est encour mal nomme
+2020-05-09 15:16:00 ------------------------------------------------------------------------------------------
+2020-05-09 15:16:00 inode 013_KZD_db_TI_67899_TABLegEP.sql
+2020-05-09 15:16:01 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:16:02 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:16:02 le script 013_KZD_db_TI_67899_TABLegEP.sql est encour mal nomme
+2020-05-09 15:16:02 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:16:56 DATE_NOW 2020-05-09-15-16-56
+2020-05-09 15:16:56 PLATEFORME RCT
+2020-05-09 15:16:57 SQL_SCRIPTS_DIRECTORY_COUNT 2
+2020-05-09 15:16:57 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:16:57 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:16:57  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:16:58 ------------------------------------------------------------------------------------------
+2020-05-09 15:16:58 inode 001_MED_db5_TI_138540_SGHJgfKL.sql
+2020-05-09 15:16:58 Le fichier 001_MED_db5_TI_138540_SGHJgfKL.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:16:59 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:16:59 Le fichier 001_MED_db5_TI_138540_SGHJgfKL.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:16:59 ------------------------------------------------------------------------------------------
+2020-05-09 15:16:59 inode 013_KZD_db_TI_67899_TABLegEP.sql
+2020-05-09 15:17:00 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:17:00 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:17:01 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:17:01 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:18:03 DATE_NOW 2020-05-09-15-18-03
+2020-05-09 15:18:03 PLATEFORME RCT
+2020-05-09 15:18:04 SQL_SCRIPTS_DIRECTORY_COUNT 2
+2020-05-09 15:18:04 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:18:04 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:18:04  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:18:04 ------------------------------------------------------------------------------------------
+2020-05-09 15:18:04 inode 001_MED_db5_TI_138540_SGHJgfKL.sql
+2020-05-09 15:18:05 Le fichier 001_MED_db5_TI_138540_SGHJgfKL.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:18:06 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:18:06 Le fichier 001_MED_db5_TI_138540_SGHJgfKL.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:18:06 ------------------------------------------------------------------------------------------
+2020-05-09 15:18:06 inode 013_KZD_db_TI_67899_TABLegEP.sql
+2020-05-09 15:18:07 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:18:07 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:18:08 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:18:08 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:19:50 DATE_NOW 2020-05-09-15-19-50
+2020-05-09 15:19:50 PLATEFORME RCT
+2020-05-09 15:19:50 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 15:19:50 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:19:50 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:19:51  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:19:51 ------------------------------------------------------------------------------------------
+2020-05-09 15:19:51 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 15:19:51 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:19:52 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:19:52 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:19:52 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:19:52 NAME_PF_PART 001_AEL_
+2020-05-09 15:19:53 NAME_PF_PART 
+2020-05-09 15:19:53 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:19:53 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:19:53 ------------------------------------------------------------------------------------------
+2020-05-09 15:19:54 inode 001_MED_db5_TI_13854_jfjfjj.sql
+2020-05-09 15:19:55 Le fichier 001_MED_db5_TI_13854_jfjfjj.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:19:57 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:19:57 Le fichier 001_MED_db5_TI_13854_jfjfjj.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:19:58 ------------------------------------------------------------------------------------------
+2020-05-09 15:19:58 inode 013_KZD_db_TI_67899_TABLegEP.sql
+2020-05-09 15:19:59 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:20:01 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:20:01 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:20:02 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:21:10 DATE_NOW 2020-05-09-15-21-09
+2020-05-09 15:21:10 PLATEFORME RCT
+2020-05-09 15:21:10 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 15:21:10 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:21:10 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:21:11  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:21:11 ------------------------------------------------------------------------------------------
+2020-05-09 15:21:11 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 15:21:11 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:21:12 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:21:12 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:21:12 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:21:13 NAME_PF_PART 001_AEL_
+2020-05-09 15:21:13 NAME_PF_PART 
+2020-05-09 15:21:13 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:21:13 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:21:13 ------------------------------------------------------------------------------------------
+2020-05-09 15:21:13 inode 001_MED_DB5_TI_13854_jfjfjj.sql
+2020-05-09 15:21:13 Le fichier 001_MED_DB5_TI_13854_jfjfjj.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:21:14 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:21:15 Le fichier 001_MED_DB5_TI_13854_jfjfjj.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:21:15 ------------------------------------------------------------------------------------------
+2020-05-09 15:21:15 inode 013_KZD_db_TI_67899_TABLegEP.sql
+2020-05-09 15:21:16 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:21:18 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:21:19 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:21:19 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:22:30 DATE_NOW 2020-05-09-15-22-30
+2020-05-09 15:22:30 PLATEFORME RCT
+2020-05-09 15:22:30 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 15:22:30 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:22:31 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:22:31  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:22:31 ------------------------------------------------------------------------------------------
+2020-05-09 15:22:31 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 15:22:31 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:22:32 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:22:32 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:22:33 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:22:33 NAME_PF_PART 001_AEL_
+2020-05-09 15:22:33 NAME_PF_PART 
+2020-05-09 15:22:33 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:22:33 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:22:33 ------------------------------------------------------------------------------------------
+2020-05-09 15:22:34 inode 001_MED_DB5_TI_67899_sjnlsfl.sql
+2020-05-09 15:22:34 Le fichier 001_MED_DB5_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:22:34 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:22:35 Le fichier 001_MED_DB5_TI_67899_sjnlsfl.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:22:35 ------------------------------------------------------------------------------------------
+2020-05-09 15:22:35 inode 013_KZD_db_TI_67899_TABLegEP.sql
+2020-05-09 15:22:36 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:22:38 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:22:39 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:22:39 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:24:37 DATE_NOW 2020-05-09-15-24-36
+2020-05-09 15:24:37 PLATEFORME RCT
+2020-05-09 15:24:37 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 15:24:37 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:24:37 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:24:38  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:24:38 ------------------------------------------------------------------------------------------
+2020-05-09 15:24:38 inode 001_AEL_DB5_TI_67899_sjnlsfl.sql
+2020-05-09 15:24:38 Le fichier 001_AEL_DB5_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:24:39 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:24:40 Le fichier 001_AEL_DB5_TI_67899_sjnlsfl.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:24:40 ------------------------------------------------------------------------------------------
+2020-05-09 15:24:40 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 15:24:40 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:24:41 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:24:41 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:24:41 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:24:41 NAME_PF_PART 001_AEL_
+2020-05-09 15:24:42 NAME_PF_PART 
+2020-05-09 15:24:42 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:24:42 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:24:42 ------------------------------------------------------------------------------------------
+2020-05-09 15:24:43 inode 013_KZD_db_TI_67899_TABLegEP.sql
+2020-05-09 15:24:43 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:24:45 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:24:46 Le fichier 013_KZD_db_TI_67899_TABLegEP.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:24:46 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:26:59 DATE_NOW 2020-05-09-15-26-59
+2020-05-09 15:27:00 PLATEFORME RCT
+2020-05-09 15:27:00 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 15:27:00 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:27:00 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:27:01  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:27:01 ------------------------------------------------------------------------------------------
+2020-05-09 15:27:01 inode 001_AEL_DB5_TI_67899_sjnlsfl.sql
+2020-05-09 15:27:01 Le fichier 001_AEL_DB5_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:27:02 DB_NAME_IN_SCRIPT_UPPERCASE DB5
+2020-05-09 15:27:03 Le fichier 001_AEL_DB5_TI_67899_sjnlsfl.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:27:03 ------------------------------------------------------------------------------------------
+2020-05-09 15:27:03 inode 001_AEL_PIXID_TI_67899_sjnlsfl.sql
+2020-05-09 15:27:03 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:27:04 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:27:04 DB_NAME_IN_SCRIPT_UPPERCASE PIXID
+2020-05-09 15:27:04 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:27:04 NAME_PF_PART 001_AEL_
+2020-05-09 15:27:05 NAME_PF_PART 
+2020-05-09 15:27:05 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:27:05 Le fichier 001_AEL_PIXID_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:27:05 ------------------------------------------------------------------------------------------
+2020-05-09 15:27:05 inode 013_KZD_DB_TI_67899_sjnlsfl.sql
+2020-05-09 15:27:06 Le fichier 013_KZD_DB_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:27:08 DB_NAME_IN_SCRIPT_UPPERCASE DB
+2020-05-09 15:27:08 Le fichier 013_KZD_DB_TI_67899_sjnlsfl.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:27:08 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:56:13 DATE_NOW 2020-05-09-15-56-13
+2020-05-09 15:56:13 PLATEFORME RCT
+2020-05-09 15:56:14 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 15:56:14 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:56:14 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:56:14  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:56:14 ------------------------------------------------------------------------------------------
+2020-05-09 15:56:15 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl
+2020-05-09 15:56:15 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:56:16 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 15:56:17 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:56:20 le script 001_AEL_PROVIDER_TI_67899_sjnlsfl est encour mal nomme
+2020-05-09 15:56:21 ------------------------------------------------------------------------------------------
+2020-05-09 15:56:21 inode (2).sql
+2020-05-09 15:56:21 Le fichier (2).sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:56:24 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 15:56:27 Le fichier (2).sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:56:28 le script (2).sql est encour mal nomme
+2020-05-09 15:56:28 ------------------------------------------------------------------------------------------
+2020-05-09 15:56:28 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 15:56:28 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:56:30 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 15:56:30 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 15:56:30 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:56:31 NAME_PF_PART 001_AEL_
+2020-05-09 15:56:31 NAME_PF_PART 
+2020-05-09 15:56:32 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:56:34 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:56:35 ------------------------------------------------------------------------------------------
+2020-05-09 15:56:35 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 15:56:36 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:56:38 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 15:56:38 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 15:56:38 NAME_PF_PART_TEMP 013_KZD_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:56:38 NAME_PF_PART 013_KZD_
+2020-05-09 15:56:39 NAME_PF_PART 
+2020-05-09 15:56:39 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:56:40 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:56:40 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 15:58:29 DATE_NOW 2020-05-09-15-58-29
+2020-05-09 15:58:29 PLATEFORME RCT
+2020-05-09 15:58:29 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 15:58:29 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:58:30 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:58:30  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:58:30 ------------------------------------------------------------------------------------------
+2020-05-09 15:58:30 inode 001_ABD_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 15:58:31 Le fichier 001_ABD_PROVIDER_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:58:32 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 15:58:32 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 15:58:32 NAME_PF_PART_TEMP 001_ABD_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:58:33 NAME_PF_PART 001_ABD_
+2020-05-09 15:58:33 NAME_PF_PART 
+2020-05-09 15:58:33 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:58:33 Le fichier 001_ABD_PROVIDER_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:58:33 ------------------------------------------------------------------------------------------
+2020-05-09 15:58:34 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 15:58:36 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:58:37 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 15:58:38 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 15:58:38 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:58:38 NAME_PF_PART 001_AEL_
+2020-05-09 15:58:38 NAME_PF_PART 
+2020-05-09 15:58:38 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:58:39 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:58:39 ------------------------------------------------------------------------------------------
+2020-05-09 15:58:39 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 15:58:39 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:58:40 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 15:58:40 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 15:58:40 NAME_PF_PART_TEMP 013_KZD_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:58:41 NAME_PF_PART 013_KZD_
+2020-05-09 15:58:41 NAME_PF_PART 
+2020-05-09 15:58:41 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:58:41 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:58:41 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 15:59:17 DATE_NOW 2020-05-09-15-59-17
+2020-05-09 15:59:17 PLATEFORME RCT
+2020-05-09 15:59:18 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 15:59:18 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 15:59:18 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:59:19  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 15:59:19 ------------------------------------------------------------------------------------------
+2020-05-09 15:59:19 inode 001_ABD_PROVIDER_TI_67899
+2020-05-09 15:59:19 Le fichier 001_ABD_PROVIDER_TI_67899 est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:59:20 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 15:59:20 Le fichier 001_ABD_PROVIDER_TI_67899 ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:59:20 le script 001_ABD_PROVIDER_TI_67899 est encour mal nomme
+2020-05-09 15:59:21 ------------------------------------------------------------------------------------------
+2020-05-09 15:59:21 inode _hh_sjnlsfl.sql
+2020-05-09 15:59:21 Le fichier _hh_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:59:21 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 15:59:22 Le fichier _hh_sjnlsfl.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 15:59:24 le script _hh_sjnlsfl.sql est encour mal nomme
+2020-05-09 15:59:24 ------------------------------------------------------------------------------------------
+2020-05-09 15:59:24 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 15:59:25 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:59:26 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 15:59:26 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 15:59:26 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:59:27 NAME_PF_PART 001_AEL_
+2020-05-09 15:59:27 NAME_PF_PART 
+2020-05-09 15:59:27 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:59:27 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:59:28 ------------------------------------------------------------------------------------------
+2020-05-09 15:59:28 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 15:59:28 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 15:59:29 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 15:59:29 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 15:59:29 NAME_PF_PART_TEMP 013_KZD_|_TI_67899_SJNLSFL.SQL
+2020-05-09 15:59:29 NAME_PF_PART 013_KZD_
+2020-05-09 15:59:29 NAME_PF_PART 
+2020-05-09 15:59:29 SCRIPT_PF_DEPENDANT 0
+2020-05-09 15:59:30 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 15:59:30 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 16:02:13 DATE_NOW 2020-05-09-16-02-13
+2020-05-09 16:02:13 PLATEFORME RCT
+2020-05-09 16:02:14 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 16:02:14 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 16:02:14 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:02:15  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:02:15 ------------------------------------------------------------------------------------------
+2020-05-09 16:02:15 inode 001_A4BD_PROVIDER_TI_67899
+2020-05-09 16:02:16 Le fichier 001_A4BD_PROVIDER_TI_67899 est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:02:17 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 16:02:17 Le fichier 001_A4BD_PROVIDER_TI_67899 ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 16:02:18 le script 001_A4BD_PROVIDER_TI_67899 est encour mal nomme
+2020-05-09 16:02:18 ------------------------------------------------------------------------------------------
+2020-05-09 16:02:18 inode _sjnlsfl.sql
+2020-05-09 16:02:18 Le fichier _sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:02:19 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 16:02:19 Le fichier _sjnlsfl.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 16:02:20 le script _sjnlsfl.sql est encour mal nomme
+2020-05-09 16:02:21 ------------------------------------------------------------------------------------------
+2020-05-09 16:02:21 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 16:02:22 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:02:23 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 16:02:23 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 16:02:24 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 16:02:24 NAME_PF_PART 001_AEL_
+2020-05-09 16:02:24 NAME_PF_PART 
+2020-05-09 16:02:24 SCRIPT_PF_DEPENDANT 0
+2020-05-09 16:02:25 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 16:02:25 ------------------------------------------------------------------------------------------
+2020-05-09 16:02:25 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 16:02:25 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:02:26 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 16:02:26 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 16:02:26 NAME_PF_PART_TEMP 013_KZD_|_TI_67899_SJNLSFL.SQL
+2020-05-09 16:02:27 NAME_PF_PART 013_KZD_
+2020-05-09 16:02:27 NAME_PF_PART 
+2020-05-09 16:02:27 SCRIPT_PF_DEPENDANT 0
+2020-05-09 16:02:28 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 16:02:28 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 16:04:23 DATE_NOW 2020-05-09-16-04-23
+2020-05-09 16:04:23 PLATEFORME RCT
+2020-05-09 16:04:23 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 16:04:23 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 16:04:24 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:04:24  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:04:24 ------------------------------------------------------------------------------------------
+2020-05-09 16:04:24 inode 001_ABD_PROVIDER_TI_670876544899
+2020-05-09 16:04:24 Le fichier 001_ABD_PROVIDER_TI_670876544899 est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:04:25 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 16:04:26 Le fichier 001_ABD_PROVIDER_TI_670876544899 ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 16:04:27 le script 001_ABD_PROVIDER_TI_670876544899 est encour mal nomme
+2020-05-09 16:04:27 ------------------------------------------------------------------------------------------
+2020-05-09 16:04:27 inode _sjnlsfl.sql
+2020-05-09 16:04:28 Le fichier _sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:04:29 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 16:04:30 Le fichier _sjnlsfl.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 16:04:30 le script _sjnlsfl.sql est encour mal nomme
+2020-05-09 16:04:30 ------------------------------------------------------------------------------------------
+2020-05-09 16:04:30 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 16:04:31 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:04:32 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 16:04:32 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 16:04:32 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 16:04:32 NAME_PF_PART 001_AEL_
+2020-05-09 16:04:33 NAME_PF_PART 
+2020-05-09 16:04:33 SCRIPT_PF_DEPENDANT 0
+2020-05-09 16:04:33 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 16:04:33 ------------------------------------------------------------------------------------------
+2020-05-09 16:04:33 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 16:04:33 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:04:34 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 16:04:34 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 16:04:34 NAME_PF_PART_TEMP 013_KZD_|_TI_67899_SJNLSFL.SQL
+2020-05-09 16:04:35 NAME_PF_PART 013_KZD_
+2020-05-09 16:04:35 NAME_PF_PART 
+2020-05-09 16:04:35 SCRIPT_PF_DEPENDANT 0
+2020-05-09 16:04:35 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 16:04:35 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 16:05:30 DATE_NOW 2020-05-09-16-05-30
+2020-05-09 16:05:31 PLATEFORME RCT
+2020-05-09 16:05:31 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 16:05:31 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 16:05:31 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:05:32  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:05:32 ------------------------------------------------------------------------------------------
+2020-05-09 16:05:32 inode 001_ABD_PROVIDER_TI_670876544899
+2020-05-09 16:05:32 Le fichier 001_ABD_PROVIDER_TI_670876544899 est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:05:33 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 16:05:33 ------------------------------------------------------------------------------------------
+2020-05-09 16:05:33 inode _sjnlsfl.sql
+2020-05-09 16:05:33 Le fichier _sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:05:34 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 16:05:34 ------------------------------------------------------------------------------------------
+2020-05-09 16:05:34 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 16:05:34 ------------------------------------------------------------------------------------------
+2020-05-09 16:05:35 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 16:05:35 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 16:10:24 DATE_NOW 2020-05-09-16-10-24
+2020-05-09 16:10:24 PLATEFORME RCT
+2020-05-09 16:10:25 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 16:10:25 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 16:10:25 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:10:25  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:10:26 ------------------------------------------------------------------------------------------
+2020-05-09 16:10:26 inode 001_ABD_PROVIDER_TI_670876544899
+2020-05-09 16:10:26 Le fichier 001_ABD_PROVIDER_TI_670876544899 est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:10:27 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 16:10:27 ------------------------------------------------------------------------------------------
+2020-05-09 16:10:27 inode _sjnlsfl.sql
+2020-05-09 16:10:27 Le fichier _sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:10:28 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 16:10:28 ------------------------------------------------------------------------------------------
+2020-05-09 16:10:28 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 16:10:29 ------------------------------------------------------------------------------------------
+2020-05-09 16:10:29 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 16:10:29 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 16:12:45 DATE_NOW 2020-05-09-16-12-45
+2020-05-09 16:12:45 PLATEFORME RCT
+2020-05-09 16:12:46 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 16:12:46 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 16:12:46 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:12:47  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:12:47 ------------------------------------------------------------------------------------------
+2020-05-09 16:12:47 inode 001_ABD_PROVIDER_TI_670876544899
+2020-05-09 16:12:47 Le fichier 001_ABD_PROVIDER_TI_670876544899 est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:12:48 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 16:12:49 Le fichier 001_ABD_PROVIDER_TI_670876544899 ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 16:12:49 le script 001_ABD_PROVIDER_TI_670876544899 est encour mal nomme
+2020-05-09 16:12:49 ------------------------------------------------------------------------------------------
+2020-05-09 16:12:49 inode _sjnlsfl.sql
+2020-05-09 16:12:49 Le fichier _sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:12:50 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 16:12:51 Le fichier _sjnlsfl.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 16:12:52 le script _sjnlsfl.sql est encour mal nomme
+2020-05-09 16:12:52 ------------------------------------------------------------------------------------------
+2020-05-09 16:12:52 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 16:12:53 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:12:55 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 16:12:55 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 16:12:55 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 16:12:55 NAME_PF_PART 001_AEL_
+2020-05-09 16:12:55 NAME_PF_PART 
+2020-05-09 16:12:56 SCRIPT_PF_DEPENDANT 0
+2020-05-09 16:12:56 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 16:12:56 ------------------------------------------------------------------------------------------
+2020-05-09 16:12:56 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 16:12:56 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:12:57 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 16:12:57 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 16:12:58 NAME_PF_PART_TEMP 013_KZD_|_TI_67899_SJNLSFL.SQL
+2020-05-09 16:12:58 NAME_PF_PART 013_KZD_
+2020-05-09 16:12:58 NAME_PF_PART 
+2020-05-09 16:12:58 SCRIPT_PF_DEPENDANT 0
+2020-05-09 16:12:58 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 16:12:58 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 16:14:19 DATE_NOW 2020-05-09-16-14-19
+2020-05-09 16:14:19 PLATEFORME RCT
+2020-05-09 16:14:20 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 16:14:20 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 16:14:20 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:14:20  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:14:21 ------------------------------------------------------------------------------------------
+2020-05-09 16:14:21 inode 001_ABD_PROVIDER_TI_670876544899_sjnlsfl.sql
+2020-05-09 16:14:21 Le fichier 001_ABD_PROVIDER_TI_670876544899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:14:22 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 16:14:22 Le fichier 001_ABD_PROVIDER_TI_670876544899_sjnlsfl.sql ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 16:14:22 ------------------------------------------------------------------------------------------
+2020-05-09 16:14:23 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 16:14:23 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:14:26 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 16:14:26 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 16:14:26 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 16:14:26 NAME_PF_PART 001_AEL_
+2020-05-09 16:14:27 NAME_PF_PART 
+2020-05-09 16:14:27 SCRIPT_PF_DEPENDANT 0
+2020-05-09 16:14:27 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 16:14:28 ------------------------------------------------------------------------------------------
+2020-05-09 16:14:28 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 16:14:29 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:14:31 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 16:14:31 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 16:14:31 NAME_PF_PART_TEMP 013_KZD_|_TI_67899_SJNLSFL.SQL
+2020-05-09 16:14:31 NAME_PF_PART 013_KZD_
+2020-05-09 16:14:32 NAME_PF_PART 
+2020-05-09 16:14:32 SCRIPT_PF_DEPENDANT 0
+2020-05-09 16:14:32 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 16:14:32 Rectifier les scripts rejetes (voir la table rejected_scripts)
+2020-05-09 16:15:01 DATE_NOW 2020-05-09-16-15-01
+2020-05-09 16:15:01 PLATEFORME RCT
+2020-05-09 16:15:02 SQL_SCRIPTS_DIRECTORY_COUNT 3
+2020-05-09 16:15:02 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 16:15:02 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:15:02  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 16:15:02 ------------------------------------------------------------------------------------------
+2020-05-09 16:15:02 inode 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql
+2020-05-09 16:15:03 Le fichier 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 16:15:04 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 16:15:04 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 16:15:04 NAME_PF_PART_TEMP 001_ABD_|_TI_67087_SJNLSFL.SQL
+2020-05-09 16:15:04 NAME_PF_PART 001_ABD_
+2020-05-09 16:15:04 NAME_PF_PART 
+2020-05-09 16:15:04 SCRIPT_PF_DEPENDANT 0
+2020-05-09 16:15:05 le nom du script 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql a ete corriger 
+2020-05-09 16:15:05 ------------------------------------------------------------------------------------------
+2020-05-09 16:15:05 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 16:15:06 ------------------------------------------------------------------------------------------
+2020-05-09 16:15:06 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 16:15:07 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 17:31:37 DATE_NOW 2020-05-09-17-31-37
+2020-05-09 17:31:37 PLATEFORME RCT
+2020-05-09 17:31:37 SQL_SCRIPTS_DIRECTORY_COUNT 4
+2020-05-09 17:31:37 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 17:31:38 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 17:31:38  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 17:31:38 ------------------------------------------------------------------------------------------
+2020-05-09 17:31:38 inode 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql
+2020-05-09 17:31:39 Le fichier 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 17:31:41 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 17:31:42 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 17:31:42 NAME_PF_PART_TEMP 001_ABD_|_TI_67087_SJNLSFL.SQL
+2020-05-09 17:31:42 NAME_PF_PART 001_ABD_
+2020-05-09 17:31:43 NAME_PF_PART 
+2020-05-09 17:31:43 SCRIPT_PF_DEPENDANT 0
+2020-05-09 17:31:43  le script 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql a ete modifier 
+2020-05-09 17:31:43 ------------------------------------------------------------------------------------------
+2020-05-09 17:31:43 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 17:31:44 ------------------------------------------------------------------------------------------
+2020-05-09 17:31:44 inode 012_AMN_MISSION_TI_7654_fgjkfa.sql
+2020-05-09 17:31:44 Le fichier 012_AMN_MISSION_TI_7654_fgjkfa.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 17:31:45 DB_NAME_IN_SCRIPT_UPPERCASE MISSION
+2020-05-09 17:31:46 DB_NAME_IN_SCRIPT_UPPERCASE MISSION
+2020-05-09 17:31:46 NAME_PF_PART_TEMP 012_AMN_|_TI_7654_FGJKFA.SQL
+2020-05-09 17:31:46 NAME_PF_PART 012_AMN_
+2020-05-09 17:31:46 NAME_PF_PART 
+2020-05-09 17:31:46 SCRIPT_PF_DEPENDANT 0
+2020-05-09 17:31:47 Le fichier 012_AMN_MISSION_TI_7654_fgjkfa.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 17:31:47 ------------------------------------------------------------------------------------------
+2020-05-09 17:31:47 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 17:31:47 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 17:55:37 DATE_NOW 2020-05-09-17-55-37
+2020-05-09 17:55:37 PLATEFORME RCT
+2020-05-09 17:55:37 SQL_SCRIPTS_DIRECTORY_COUNT 5
+2020-05-09 17:55:37 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 17:55:37 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 17:55:38  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 17:55:38 ------------------------------------------------------------------------------------------
+2020-05-09 17:55:38 inode 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql
+2020-05-09 17:55:38 ------------------------------------------------------------------------------------------
+2020-05-09 17:55:38 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 17:55:38 ------------------------------------------------------------------------------------------
+2020-05-09 17:55:39 inode 012_AMN_MISSION_TI_7654_fgjkfa.sql
+2020-05-09 17:55:39 ------------------------------------------------------------------------------------------
+2020-05-09 17:55:39 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 17:55:39 ------------------------------------------------------------------------------------------
+2020-05-09 17:55:39 inode 014_AME_MISSION_TI_7654_fgjkfa.sql
+2020-05-09 17:55:39 Le fichier 014_AME_MISSION_TI_7654_fgjkfa.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 17:55:40 DB_NAME_IN_SCRIPT_UPPERCASE MISSION
+2020-05-09 17:55:41 DB_NAME_IN_SCRIPT_UPPERCASE MISSION
+2020-05-09 17:55:41 NAME_PF_PART_TEMP 014_AME_|_TI_7654_FGJKFA.SQL
+2020-05-09 17:55:41 NAME_PF_PART 014_AME_
+2020-05-09 17:55:41 NAME_PF_PART 
+2020-05-09 17:55:41 SCRIPT_PF_DEPENDANT 0
+2020-05-09 17:55:42 Le fichier 014_AME_MISSION_TI_7654_fgjkfa.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 17:55:42 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 22:21:59 DATE_NOW 2020-05-09-22-21-59
+2020-05-09 22:21:59 PLATEFORME INT
+2020-05-09 22:22:00 SQL_SCRIPTS_DIRECTORY_COUNT 5
+2020-05-09 22:22:01 creation du repertoire /appli/deployment/sql/INT/6.1.1 
+2020-05-09 22:22:02 De nouveaux scripts sql sont a traiter dans les dossiers workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 22:22:02  Traitement du repertoire sql workspace/PATT_UTILS/sql/V6.1.1 
+2020-05-09 22:22:03 ------------------------------------------------------------------------------------------
+2020-05-09 22:22:03 inode 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql
+2020-05-09 22:22:04 Le fichier 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 22:22:09 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 22:22:09 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 22:22:10 NAME_PF_PART_TEMP 001_ABD_|_TI_67087_SJNLSFL.SQL
+2020-05-09 22:22:10 NAME_PF_PART 001_ABD_
+2020-05-09 22:22:10 NAME_PF_PART 
+2020-05-09 22:22:10 SCRIPT_PF_DEPENDANT 0
+2020-05-09 22:22:11 Le fichier 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 22:22:11 ------------------------------------------------------------------------------------------
+2020-05-09 22:22:11 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 22:22:12 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 22:22:13 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 22:22:13 DB_NAME_IN_SCRIPT_UPPERCASE PROVIDER
+2020-05-09 22:22:13 NAME_PF_PART_TEMP 001_AEL_|_TI_67899_SJNLSFL.SQL
+2020-05-09 22:22:13 NAME_PF_PART 001_AEL_
+2020-05-09 22:22:13 NAME_PF_PART 
+2020-05-09 22:22:13 SCRIPT_PF_DEPENDANT 0
+2020-05-09 22:22:14 Le fichier 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 22:22:14 ------------------------------------------------------------------------------------------
+2020-05-09 22:22:14 inode 012_AMN_MISSION_TI_7654_fgjkfa.sql
+2020-05-09 22:22:14 Le fichier 012_AMN_MISSION_TI_7654_fgjkfa.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 22:22:15 DB_NAME_IN_SCRIPT_UPPERCASE MISSION
+2020-05-09 22:22:15 DB_NAME_IN_SCRIPT_UPPERCASE MISSION
+2020-05-09 22:22:15 NAME_PF_PART_TEMP 012_AMN_|_TI_7654_FGJKFA.SQL
+2020-05-09 22:22:15 NAME_PF_PART 012_AMN_
+2020-05-09 22:22:15 NAME_PF_PART 
+2020-05-09 22:22:16 SCRIPT_PF_DEPENDANT 0
+2020-05-09 22:22:16 Le fichier 012_AMN_MISSION_TI_7654_fgjkfa.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 22:22:16 ------------------------------------------------------------------------------------------
+2020-05-09 22:22:16 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 22:22:16 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 22:22:17 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 22:22:17 DB_NAME_IN_SCRIPT_UPPERCASE DWHSTAGE
+2020-05-09 22:22:17 NAME_PF_PART_TEMP 013_KZD_|_TI_67899_SJNLSFL.SQL
+2020-05-09 22:22:17 NAME_PF_PART 013_KZD_
+2020-05-09 22:22:18 NAME_PF_PART 
+2020-05-09 22:22:18 SCRIPT_PF_DEPENDANT 0
+2020-05-09 22:22:18 Le fichier 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 22:22:18 ------------------------------------------------------------------------------------------
+2020-05-09 22:22:19 inode 014_AME_MISSION_TI_7654_fgjkfa.sql
+2020-05-09 22:22:19 Le fichier 014_AME_MISSION_TI_7654_fgjkfa.sql est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 22:22:22 DB_NAME_IN_SCRIPT_UPPERCASE MISSION
+2020-05-09 22:22:22 DB_NAME_IN_SCRIPT_UPPERCASE MISSION
+2020-05-09 22:22:22 NAME_PF_PART_TEMP 014_AME_|_TI_7654_FGJKFA.SQL
+2020-05-09 22:22:22 NAME_PF_PART 014_AME_
+2020-05-09 22:22:23 NAME_PF_PART 
+2020-05-09 22:22:23 SCRIPT_PF_DEPENDANT 0
+2020-05-09 22:22:23 Le fichier 014_AME_MISSION_TI_7654_fgjkfa.sql a ete traite avec succes et ajoute dans le registre des scripts traites
+2020-05-09 22:22:23 Tous les scripts qui sont bien nommes ont ete pris 
+2020-05-09 22:30:44 DATE_NOW 2020-05-09-22-30-44
+2020-05-09 22:30:44 PLATEFORME RCT
+2020-05-09 22:30:45 SQL_SCRIPTS_DIRECTORY_COUNT 6
+2020-05-09 22:30:46 creation du repertoire /appli/deployment/sql/RCT/6.1.1 
+2020-05-09 22:30:46 De nouveaux scripts sql sont a traiter dans les dossiers appli/deployment/sql/INT/6.1.1/PROCESSED 
+2020-05-09 22:30:47  Traitement du repertoire sql appli/deployment/sql/INT/6.1.1/PROCESSED 
+2020-05-09 22:30:47 ------------------------------------------------------------------------------------------
+2020-05-09 22:30:47 inode 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql
+2020-05-09 22:30:48 ------------------------------------------------------------------------------------------
+2020-05-09 22:30:48 inode 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql
+2020-05-09 22:30:49 ------------------------------------------------------------------------------------------
+2020-05-09 22:30:49 inode 012_AMN_MISSION_TI_7654_fgjkfa.sql
+2020-05-09 22:30:49 ------------------------------------------------------------------------------------------
+2020-05-09 22:30:49 inode 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql
+2020-05-09 22:30:50 ------------------------------------------------------------------------------------------
+2020-05-09 22:30:50 inode 014_AME_MISSION_TI_7654_fgjkfa.sql
+2020-05-09 22:30:50 ------------------------------------------------------------------------------------------
+2020-05-09 22:30:50 inode 2020-05-09-22-29-15
+2020-05-09 22:30:50 Le fichier 2020-05-09-22-29-15 est a traiter car il n'est pas dans register ou il y est mais avec un checksum different
+2020-05-09 22:30:51 DB_NAME_IN_SCRIPT_UPPERCASE NODBINSTRUCTIONINTHEFILE
+2020-05-09 22:30:52 Le fichier 2020-05-09-22-29-15 ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees
+2020-05-09 22:30:52 le script 2020-05-09-22-29-15 est encour mal nomme
+2020-05-09 22:30:52 Rectifier les scripts rejetes (voir la table rejected_scripts)

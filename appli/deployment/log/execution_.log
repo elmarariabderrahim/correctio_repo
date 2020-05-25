@@ -1,0 +1,747 @@
+2020-05-08 17:18:31 DATE 2020-05-08-17-18-31
+2020-05-08 17:18:32 il ya encour des scripts rejetes dans la version V6.1.4 (verifier la table de register)
+2020-05-08 23:47:38 DATE 2020-05-08-23-47-37
+2020-05-08 23:51:35 DATE 2020-05-08-23-51-33
+2020-05-08 23:51:35 cet version V6.1.4 est deja tester est deployer dans la plateform RCT
+2020-05-09 00:50:48 DATE 2020-05-09-00-50-48
+2020-05-09 00:50:49 il ya encour des scripts rejetes dans la version V6.1.2 (verifier la table de register)
+2020-05-09 00:54:29 DATE 2020-05-09-00-54-28
+2020-05-09 00:54:29 il ya encour des scripts rejetes dans la version V6.1.2 (verifier la table de register)
+2020-05-09 00:56:09 DATE 2020-05-09-00-56-07
+2020-05-09 01:32:47 ****** le script appli est deja testé ******
+2020-05-09 01:32:48 ****** le script bin est deja testé ******
+2020-05-09 01:32:48 ****** le script cmd est deja testé ******
+2020-05-09 01:32:48 ****** le script dev est deja testé ******
+2020-05-09 01:32:49 ****** le script etc est deja testé ******
+2020-05-09 01:32:49 ****** le script git-bash.exe est deja testé ******
+2020-05-09 01:32:49 ****** le script git-cmd.exe est deja testé ******
+2020-05-09 01:32:49 ****** le script LICENSE.txt est deja testé ******
+2020-05-09 01:32:50 ****** le script mingw64 est deja testé ******
+2020-05-09 01:32:50 ****** le script proc est deja testé ******
+2020-05-09 01:32:50 ****** le script ReleaseNotes.html est deja testé ******
+2020-05-09 01:32:50 ****** le script tmp est deja testé ******
+2020-05-09 01:32:50 ****** le script unins000.dat est deja testé ******
+2020-05-09 01:32:51 ****** le script unins000.exe est deja testé ******
+2020-05-09 01:32:51 ****** le script unins000.msg est deja testé ******
+2020-05-09 01:32:51 ****** le script usr est deja testé ******
+2020-05-09 01:34:25 nombre des bases invoquer dans les scripts est 2	
+2020-05-09 01:34:46 ****** le script appli est deja testé ******
+2020-05-09 01:34:46 ****** le script bin est deja testé ******
+2020-05-09 01:34:47 ****** le script cmd est deja testé ******
+2020-05-09 01:34:47 ****** le script dev est deja testé ******
+2020-05-09 01:34:47 ****** le script etc est deja testé ******
+2020-05-09 01:34:48 ****** le script git-bash.exe est deja testé ******
+2020-05-09 01:34:48 ****** le script git-cmd.exe est deja testé ******
+2020-05-09 01:34:48 ****** le script LICENSE.txt est deja testé ******
+2020-05-09 01:34:49 ****** le script mingw64 est deja testé ******
+2020-05-09 01:34:49 ****** le script proc est deja testé ******
+2020-05-09 01:34:49 ****** le script ReleaseNotes.html est deja testé ******
+2020-05-09 01:34:50 ****** le script tmp est deja testé ******
+2020-05-09 01:34:50 ****** le script unins000.dat est deja testé ******
+2020-05-09 01:34:50 ****** le script unins000.exe est deja testé ******
+2020-05-09 01:34:50 ****** le script unins000.msg est deja testé ******
+2020-05-09 01:34:50 ****** le script usr est deja testé ******
+2020-05-09 01:40:21 nombre des bases invoquer dans les scripts est 2	
+2020-05-09 01:40:43 ****** le script 001_AEL_PIXID_TI_67899_sjnlsfl.sql est passer avec succes ******
+2020-05-09 01:40:48 ****** le script 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est passer avec succes ******
+2020-05-09 01:40:51 ****** l'insertion est passer par succes dans 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql ******
+2020-05-09 01:40:55  ****** l'insertion  a échoué dans 201_JEE_PIXID_TI_9875_INSERT.sql ******
+2020-05-09 01:43:37 ****** le script 001_AEL_PIXID_TI_67899_sjnlsfl.sql est deja testé ******
+2020-05-09 01:43:37 ****** le script 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est deja testé ******
+2020-05-09 01:43:38 ****** le script 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql est deja testé ******
+2020-05-09 01:43:40 ****** l'insertion est passer par succes dans 201_JEE_PIXID_TI_9875_INSERT.sql ******
+2020-05-09 13:57:50 nombre des bases invoquer dans les scripts est 2	
+2020-05-09 13:58:14 ****** le script 001_AEL_PIXID_TI_67899_sjnlsfl.sql a échoué ******
+2020-05-09 13:58:15 ****** le script 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql a échoué ******
+2020-05-09 13:58:19 ****** l'insertion est passer par succes dans 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql ******
+2020-05-09 13:58:21 ****** l'insertion est passer par succes dans 201_JEE_PIXID_TI_9875_INSERT.sql ******
+2020-05-09 14:01:16 nombre des bases invoquer dans les scripts est 2	
+2020-05-09 14:01:43 ****** le script 001_AEL_PIXID_TI_67899_sjnlsfl.sql est passer avec succes ******
+2020-05-09 14:01:47 ****** le script 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est passer avec succes ******
+2020-05-09 14:01:50 ****** l'insertion est passer par succes dans 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql ******
+2020-05-09 14:01:52 ****** l'insertion est passer par succes dans 201_JEE_PIXID_TI_9875_INSERT.sql ******
+2020-05-09 14:03:41 nombre des bases invoquer dans les scripts est 2	
+2020-05-09 14:04:19 ****** le script 001_AEL_PIXID_TI_67899_sjnlsfl.sql est passer avec succes ******
+2020-05-09 14:04:27 ****** le script 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est passer avec succes ******
+2020-05-09 14:04:30 ****** l'insertion est passer par succes dans 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql ******
+2020-05-09 14:04:36 ****** l'insertion est passer par succes dans 201_JEE_PIXID_TI_9875_INSERT.sql ******
+2020-05-09 14:17:02 DATE 2020-05-09-14-17-01
+2020-05-09 14:22:06 DATE 2020-05-09-14-22-05
+2020-05-09 14:23:56 DATE 2020-05-09-14-23-55
+2020-05-09 14:26:42 DATE 2020-05-09-14-26-41
+2020-05-09 14:28:42 DATE 2020-05-09-14-28-41
+2020-05-09 14:31:02 DATE 2020-05-09-14-31-00
+2020-05-09 14:33:02 DATE 2020-05-09-14-33-01
+2020-05-09 14:36:41 nombre des bases invoquer dans les scripts est 2	
+2020-05-09 14:37:09 ****** le script 001_AEL_PIXID_TI_67899_sjnlsfl.sql est passer avec succes ******
+2020-05-09 14:37:13 ****** le script 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est passer avec succes ******
+2020-05-09 14:37:16 ****** l'insertion est passer par succes dans 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql ******
+2020-05-09 14:37:19 ****** l'insertion est passer par succes dans 201_JEE_PIXID_TI_9875_INSERT.sql ******
+2020-05-09 14:37:42 DATE 2020-05-09-14-37-40
+2020-05-09 14:41:17 nombre des bases invoquer dans les scripts est 2	
+2020-05-09 14:41:43 ****** le script 001_AEL_PIXID_TI_67899_sjnlsfl.sql est passer avec succes ******
+2020-05-09 14:41:48 ****** le script 002_AEL_DWHSTAGE_TI_6789967_ALLSCRIP.sql est passer avec succes ******
+2020-05-09 14:41:50 ****** l'insertion est passer par succes dans 200_AEL_DWHSTAGE_TI_67899_sjnlsfl.sql ******
+2020-05-09 14:41:52 ****** l'insertion est passer par succes dans 201_JEE_PIXID_TI_9875_INSERT.sql ******
+2020-05-09 14:43:24 DATE 2020-05-09-14-43-23
+2020-05-09 14:48:49 DATE 2020-05-09-14-48-46
+2020-05-09 14:49:09 DATE 2020-05-09-14-49-07
+2020-05-09 14:50:01 DATE 2020-05-09-14-50-00
+2020-05-09 14:50:26 DATE 2020-05-09-14-50-25
+2020-05-09 14:51:15 DATE 2020-05-09-14-51-13
+2020-05-09 15:07:35 nombre des bases invoquer dans les scripts est 2	
+2020-05-09 15:07:59 ****** le script 001_ALDL_PIXID_TI_138540_SGHJKL.sql est passer avec succes ******
+2020-05-09 15:08:04 ****** le script 013_ABDO_DWHSTAGE_TI_67899_TABLEP.sql est passer avec succes ******
+2020-05-09 15:08:18 DATE 2020-05-09-15-08-16
+2020-05-09 16:49:11 nombre des bases invoquer dans les scripts est 2	
+2020-05-09 16:49:33 ****** le script 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql a échoué ******
+2020-05-09 16:49:38 ****** le script 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est passer avec succes ******
+2020-05-09 16:49:43 ****** le script 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est passer avec succes ******
+2020-05-09 16:51:24 ****** le script 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql est passer avec succes ******
+2020-05-09 16:51:25 ****** le script 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est deja testé ******
+2020-05-09 16:51:25 ****** le script 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est deja testé ******
+2020-05-09 16:52:23 DATE 2020-05-09-16-52-22
+2020-05-09 16:54:20 DATE 2020-05-09-16-54-19
+2020-05-09 17:05:11 DATE 2020-05-09-17-05-10
+2020-05-09 17:14:43 DATE 2020-05-09-17-14-41
+2020-05-09 17:17:04 DATE 2020-05-09-17-17-03
+2020-05-09 17:19:10 DATE 2020-05-09-17-19-09
+2020-05-09 17:21:51 DATE 2020-05-09-17-21-49
+2020-05-09 17:23:33 DATE 2020-05-09-17-23-31
+2020-05-09 17:25:18 DATE 2020-05-09-17-25-17
+2020-05-09 17:33:26 nombre des bases invoquer dans les scripts est 2	
+2020-05-09 17:33:42 ****** le script 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql est passer avec succes ******
+2020-05-09 17:33:43 ****** le script 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est deja testé ******
+2020-05-09 17:33:45 ****** le script 012_AMN_MISSION_TI_7654_fgjkfa.sql est passer avec succes ******
+2020-05-09 17:33:48 ****** le script 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est deja testé ******
+2020-05-09 17:35:02 DATE 2020-05-09-17-35-00
+2020-05-09 17:36:13 DATE 2020-05-09-17-36-11
+2020-05-09 17:37:25 DATE 2020-05-09-17-37-24
+2020-05-09 17:37:53 DATE 2020-05-09-17-37-52
+2020-05-09 17:38:15 DATE 2020-05-09-17-38-14
+2020-05-09 17:39:59 DATE 2020-05-09-17-39-58
+2020-05-09 17:48:37 DATE 2020-05-09-17-48-36
+2020-05-09 17:56:25 nombre des bases invoquer dans les scripts est 1	
+2020-05-09 17:56:33 ****** le script 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql est deja testé ******
+2020-05-09 17:56:33 ****** le script 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est deja testé ******
+2020-05-09 17:56:34 ****** le script 012_AMN_MISSION_TI_7654_fgjkfa.sql est deja testé ******
+2020-05-09 17:56:34 ****** le script 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est deja testé ******
+2020-05-09 17:56:37 ****** le script 014_AME_MISSION_TI_7654_fgjkfa.sql est passer avec succes ******
+2020-05-09 17:58:02 DATE 2020-05-09-17-58-00
+2020-05-09 17:58:39 DATE 2020-05-09-17-58-37
+2020-05-09 18:18:46 DATE 2020-05-09-18-18-45
+2020-05-09 18:19:54 DATE 2020-05-09-18-19-53
+2020-05-09 18:22:14 DATE 2020-05-09-18-22-13
+2020-05-09 18:24:40 DATE 2020-05-09-18-24-39
+2020-05-09 18:25:28 DATE 2020-05-09-18-25-26
+2020-05-09 18:26:10 DATE 2020-05-09-18-26-09
+2020-05-09 18:27:18 DATE 2020-05-09-18-27-17
+2020-05-09 22:25:15 nombre des bases invoquer dans les scripts est 4	
+2020-05-09 22:25:42 ****** le script 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql est passer avec succes ******
+2020-05-09 22:25:45 ****** le script 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est passer avec succes ******
+2020-05-09 22:25:48 ****** le script 012_AMN_MISSION_TI_7654_fgjkfa.sql est passer avec succes ******
+2020-05-09 22:25:52 ****** le script 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est passer avec succes ******
+2020-05-09 22:25:56 ****** le script 014_AME_MISSION_TI_7654_fgjkfa.sql est passer avec succes ******
+2020-05-09 22:29:16 DATE 2020-05-09-22-29-15
+2020-05-09 22:37:39 nombre des bases invoquer dans les scripts est 4	
+2020-05-09 22:38:04 ****** le script 001_ABD_PROVIDER_TI_67087_sjnlsfl.sql est passer avec succes ******
+2020-05-09 22:38:08 ****** le script 001_AEL_PROVIDER_TI_67899_sjnlsfl.sql est passer avec succes ******
+2020-05-09 22:38:11 ****** le script 012_AMN_MISSION_TI_7654_fgjkfa.sql est passer avec succes ******
+2020-05-09 22:38:15 ****** le script 013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql est passer avec succes ******
+2020-05-09 22:38:18 ****** le script 014_AME_MISSION_TI_7654_fgjkfa.sql est passer avec succes ******
+2020-05-09 22:38:41 DATE 2020-05-09-22-38-39
+2020-05-09 22:48:31 DATE 2020-05-09-22-48-30
+2020-05-09 22:51:49 DATE 2020-05-09-22-51-48
+2020-05-09 22:51:50 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-09 22:51:50 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-09 22:56:18 DATE 2020-05-09-22-56-17
+2020-05-09 23:10:02 DATE 2020-05-09-23-10-00
+2020-05-09 23:21:31 DATE 2020-05-09-23-21-29
+2020-05-09 23:23:30 DATE 2020-05-09-23-23-29
+2020-05-09 23:23:30 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-09 23:23:30 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-09 23:26:06 DATE 2020-05-09-23-26-05
+2020-05-09 23:26:06 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-09 23:26:06 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-09 23:30:02 DATE 2020-05-09-23-30-00
+2020-05-09 23:30:02 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-09 23:30:03 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-09 23:31:06 DATE 2020-05-09-23-31-05
+2020-05-09 23:34:15 DATE 2020-05-09-23-34-14
+2020-05-09 23:34:15 cet version V6.1.1 est deja tester est deployer dans la plateform INT
+2020-05-09 23:40:36 DATE 2020-05-09-23-40-35
+2020-05-09 23:43:13 DATE 2020-05-09-23-43-12
+2020-05-09 23:46:25 DATE 2020-05-09-23-46-24
+2020-05-10 00:09:22 DATE 2020-05-10-00-09-20
+2020-05-10 00:09:22 cet version V6.1.1 est deja tester est deployer dans la plateform PROD
+2020-05-10 00:14:33 DATE 2020-05-10-00-14-32
+2020-05-10 00:14:34 les scripts de la V6.1.2 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-10 00:14:34 il y a toujours des scripts rejetés dans la version V6.1.2, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-10 00:19:23 DATE 2020-05-10-00-19-22
+2020-05-10 00:19:28 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-10 00:19:29 Creation du dossier sql dans CIFS
+Warning: Identity file /appli/.ssh/id_rsa not accessible: No such file or directory.
+ssh: Could not resolve hostname cifs-devops: Name or service not known
+2020-05-10 00:19:41 Erreur lors de la creation du dossier cible dans CIFS
+2020-05-10 00:19:41 FIN DES TRAITEMENTS AVEC ERREUR VOIR FICHIER DE LOG appli/deployment/log/execution_.log
+2020-05-10 00:26:59 DATE 2020-05-10-00-26-58
+2020-05-10 00:27:00 les scripts de la V6.1.4 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-10 00:27:00 il y a toujours des scripts rejetés dans la version V6.1.4, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-10 00:28:09 DATE 2020-05-10-00-28-08
+2020-05-10 00:28:09 les scripts de la V6.1.4 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-10 00:28:09 il y a toujours des scripts rejetés dans la version V6.1.4, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-10 00:30:15 DATE 2020-05-10-00-30-14
+2020-05-10 00:30:15 les scripts de la V6.1.4 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-10 00:30:15 il y a toujours des scripts rejetés dans la version V6.1.4, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-10 00:31:28 DATE 2020-05-10-00-31-25
+2020-05-10 00:31:31 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 00:31:32 Creation du dossier sql dans CIFS
+Warning: Identity file /appli/.ssh/id_rsa not accessible: No such file or directory.
+ssh: Could not resolve hostname cifs-devops: Name or service not known
+2020-05-10 00:31:41 Erreur lors de la creation du dossier cible dans CIFS
+2020-05-10 00:31:42 FIN DES TRAITEMENTS AVEC ERREUR VOIR FICHIER DE LOG appli/deployment/log/execution_.log
+2020-05-10 00:40:17 DATE 2020-05-10-00-40-16
+2020-05-10 00:40:19 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 00:40:19 Creation du dossier sql dans CIFS
+2020-05-10 00:45:25 DATE 2020-05-10-00-45-24
+2020-05-10 00:45:27 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 00:45:28 Creation du dossier sql dans CIFS
+2020-05-10 00:47:47 DATE 2020-05-10-00-47-46
+2020-05-10 00:47:51 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 00:47:51 Creation du dossier sql dans CIFS
+2020-05-10 10:29:25 DATE 2020-05-10-10-29-23
+2020-05-10 10:29:26 les scripts de la V6.1.4 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-10 10:29:26 il y a toujours des scripts rejetés dans la version V6.1.4, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-10 10:31:04 DATE 2020-05-10-10-31-03
+2020-05-10 10:31:08 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 10:31:08 Creation du dossier sql dans CIFS
+2020-05-10 10:31:09  fin de traitement avec succes 
+2020-05-10 10:36:12 DATE 2020-05-10-10-36-10
+2020-05-10 10:36:16 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 10:36:16 Creation du dossier sql dans CIFS
+2020-05-10 10:36:16  fin de traitement avec succes 
+2020-05-10 10:39:10 DATE 2020-05-10-10-39-08
+2020-05-10 10:39:14 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 10:39:15 Creation du dossier sql dans CIFS
+2020-05-10 10:39:15  fin de traitement avec succes 
+2020-05-10 10:41:51 DATE 2020-05-10-10-41-50
+2020-05-10 10:41:55 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 10:41:55 Creation du dossier sql dans CIFS
+2020-05-10 10:41:55  fin de traitement avec succes 
+2020-05-10 11:32:33 DATE 2020-05-10-11-32-31
+2020-05-10 11:32:33 les scripts de la V6.1.4 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-10 11:32:33 il y a toujours des scripts rejetés dans la version V6.1.4, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-10 11:42:06 DATE 2020-05-10-11-42-05
+2020-05-10 11:42:07 les scripts de la V6.1.4 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-10 11:42:07 il y a toujours des scripts rejetés dans la version V6.1.4, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-10 11:43:56 DATE 2020-05-10-11-43-54
+2020-05-10 11:43:57 les scripts de la V6.1.4 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-10 11:43:57 il y a toujours des scripts rejetés dans la version V6.1.4, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-10 11:45:20 DATE 2020-05-10-11-45-19
+2020-05-10 11:45:20 les scripts de la V6.1.4 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-10 11:45:20 il y a toujours des scripts rejetés dans la version V6.1.4, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-10 11:47:05 DATE 2020-05-10-11-47-03
+2020-05-10 11:47:06 les scripts de la V6.1.4 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-10 11:47:06 il y a toujours des scripts rejetés dans la version V6.1.4, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-10 11:49:06 DATE 2020-05-10-11-49-05
+2020-05-10 11:49:08 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 11:49:08 Creation du dossier sql dans CIFS
+2020-05-10 11:49:08  fin de traitement avec succes 
+2020-05-10 12:19:34 DATE 2020-05-10-12-19-32
+2020-05-10 12:19:36 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 12:19:36 Creation du dossier sql dans CIFS
+2020-05-10 12:19:36  fin de traitement avec succes 
+2020-05-10 12:21:24 DATE 2020-05-10-12-21-22
+2020-05-10 12:21:28 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 12:21:28 Creation du dossier sql dans CIFS
+2020-05-10 12:21:28  fin de traitement avec succes 
+2020-05-10 12:24:08 DATE 2020-05-10-12-24-07
+2020-05-10 12:24:11 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-10 12:24:11 Creation du dossier sql dans CIFS
+2020-05-10 12:24:11  fin de traitement avec succes 
+2020-05-12 15:14:07 DATE 2020-05-12-15-14-01
+2020-05-12 15:14:07 cet version V6.1.1 est deja tester et deployer dans la plateform INT
+2020-05-12 15:16:03 DATE 2020-05-12-15-16-02
+2020-05-12 15:16:10 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-12 15:16:10 Creation du dossier sql dans CIFS
+2020-05-12 15:16:10  fin de traitement avec succes 
+2020-05-12 15:23:03 DATE 2020-05-12-15-23-01
+2020-05-12 15:23:03 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-12 15:23:03 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-12 15:25:47 DATE 2020-05-12-15-25-46
+2020-05-12 15:25:53 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-12 15:25:53 Creation du dossier sql dans CIFS
+2020-05-12 15:25:53  fin de traitement avec succes 
+2020-05-12 15:40:43 DATE 2020-05-12-15-40-40
+2020-05-12 15:40:44 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-12 15:40:44 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-12 15:42:52 DATE 2020-05-12-15-42-51
+2020-05-12 15:42:59 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-12 15:42:59 Creation du dossier sql dans CIFS
+2020-05-12 15:42:59  fin de traitement avec succes 
+2020-05-12 16:06:11 DATE 2020-05-12-16-06-10
+2020-05-12 16:06:17 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-12 16:06:17 Creation du dossier sql dans CIFS
+2020-05-12 16:06:17  fin de traitement avec succes 
+2020-05-12 17:25:32 DATE 2020-05-12-17-25-30
+2020-05-12 17:25:32 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-12 17:25:32 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-12 17:28:10 DATE 2020-05-12-17-28-09
+2020-05-12 17:28:10 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-12 17:28:10 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-12 17:29:30 DATE 2020-05-12-17-29-27
+2020-05-12 17:29:35 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-12 17:29:35 Creation du dossier sql dans CIFS
+2020-05-12 17:29:35  fin de traitement avec succes 
+2020-05-12 17:32:56 DATE 2020-05-12-17-32-54
+2020-05-12 17:33:00 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-12 17:33:00 Creation du dossier sql dans CIFS
+2020-05-12 17:33:00  fin de traitement avec succes 
+2020-05-12 17:36:07 DATE 2020-05-12-17-36-06
+2020-05-12 17:36:11 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-12 17:36:12 Creation du dossier sql dans CIFS
+2020-05-12 17:36:12  fin de traitement avec succes 
+2020-05-12 18:10:49 DATE 2020-05-12-18-10-47
+2020-05-12 18:10:56 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-12 18:10:56 Creation du dossier sql dans CIFS
+2020-05-12 18:10:57  fin de traitement avec succes 
+2020-05-12 18:14:52 DATE 2020-05-12-18-14-49
+2020-05-12 18:14:52 les scripts de la V6.1.2 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-12 18:14:52 il y a toujours des scripts rejetés dans la version V6.1.2, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-12 18:17:07 DATE 2020-05-12-18-17-06
+2020-05-12 18:17:12 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 18:17:12 Creation du dossier sql dans CIFS
+2020-05-12 18:17:12  fin de traitement avec succes 
+2020-05-12 18:22:34 DATE 2020-05-12-18-22-33
+2020-05-12 18:22:39 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 18:22:40 Creation du dossier sql dans CIFS
+2020-05-12 18:22:40  fin de traitement avec succes 
+2020-05-12 18:26:17 DATE 2020-05-12-18-26-16
+2020-05-12 18:26:19 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 18:26:19 Creation du dossier sql dans CIFS
+2020-05-12 18:26:19  fin de traitement avec succes 
+2020-05-12 18:29:33 DATE 2020-05-12-18-29-32
+2020-05-12 18:29:35 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 18:29:35 Creation du dossier sql dans CIFS
+2020-05-12 18:29:35  fin de traitement avec succes 
+2020-05-12 18:33:37 DATE 2020-05-12-18-33-33
+2020-05-12 18:36:42 DATE 2020-05-12-18-36-41
+2020-05-12 18:36:45 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 18:36:45 Creation du dossier sql dans CIFS
+2020-05-12 18:36:45  fin de traitement avec succes 
+2020-05-12 18:42:28 DATE 2020-05-12-18-42-27
+2020-05-12 18:42:30 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 18:42:30 Creation du dossier sql dans CIFS
+2020-05-12 18:42:30  fin de traitement avec succes 
+2020-05-12 18:46:54 DATE 2020-05-12-18-46-53
+2020-05-12 18:47:00 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 18:47:00 Creation du dossier sql dans CIFS
+2020-05-12 18:47:00  fin de traitement avec succes 
+2020-05-12 19:08:32 DATE 2020-05-12-19-08-31
+2020-05-12 19:08:34 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 19:08:34 Creation du dossier sql dans CIFS
+2020-05-12 19:08:34  fin de traitement avec succes 
+2020-05-12 22:23:10 DATE 2020-05-12-22-23-08
+2020-05-12 22:23:12 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 22:23:12 Creation du dossier sql dans CIFS
+2020-05-12 22:23:12  fin de traitement avec succes 
+2020-05-12 22:25:54 DATE 2020-05-12-22-25-52
+2020-05-12 22:25:58 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 22:25:58 Creation du dossier sql dans CIFS
+2020-05-12 22:25:58  fin de traitement avec succes 
+2020-05-12 22:28:55 DATE 2020-05-12-22-28-53
+2020-05-12 22:28:57 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 22:28:57 Creation du dossier sql dans CIFS
+2020-05-12 22:28:57  fin de traitement avec succes 
+2020-05-12 22:30:52 DATE 2020-05-12-22-30-51
+2020-05-12 22:30:54 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 22:30:54 Creation du dossier sql dans CIFS
+2020-05-12 22:30:54  fin de traitement avec succes 
+2020-05-12 22:36:30 DATE 2020-05-12-22-36-29
+2020-05-12 22:36:33 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 22:36:33 Creation du dossier sql dans CIFS
+2020-05-12 22:36:33  fin de traitement avec succes 
+2020-05-12 22:38:15 DATE 2020-05-12-22-38-13
+2020-05-12 22:38:17 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 22:38:17 Creation du dossier sql dans CIFS
+2020-05-12 22:38:17  fin de traitement avec succes 
+2020-05-12 22:40:40 DATE 2020-05-12-22-40-39
+2020-05-12 22:40:46 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 22:40:46 Creation du dossier sql dans CIFS
+2020-05-12 22:40:46  fin de traitement avec succes 
+2020-05-12 22:43:38 DATE 2020-05-12-22-43-36
+2020-05-12 22:43:40 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 22:43:40 Creation du dossier sql dans CIFS
+2020-05-12 22:43:40  fin de traitement avec succes 
+2020-05-12 22:46:16 DATE 2020-05-12-22-46-15
+2020-05-12 22:46:18 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 22:46:18 Creation du dossier sql dans CIFS
+2020-05-12 22:46:18  fin de traitement avec succes 
+2020-05-12 22:48:22 DATE 2020-05-12-22-48-19
+2020-05-12 22:48:29 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 22:48:29 Creation du dossier sql dans CIFS
+2020-05-12 22:48:29  fin de traitement avec succes 
+2020-05-12 22:51:03 DATE 2020-05-12-22-51-01
+2020-05-12 22:51:03 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-12 22:51:03 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-12 22:53:29 DATE 2020-05-12-22-53-27
+2020-05-12 22:53:29 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-12 22:53:29 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-12 22:55:15 DATE 2020-05-12-22-55-14
+2020-05-12 22:55:21 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-12 22:55:21 Creation du dossier sql dans CIFS
+2020-05-12 22:55:21  fin de traitement avec succes 
+2020-05-12 22:57:07 DATE 2020-05-12-22-57-06
+2020-05-12 22:57:13 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 22:57:13 Creation du dossier sql dans CIFS
+2020-05-12 22:57:13  fin de traitement avec succes 
+2020-05-12 22:58:46 DATE 2020-05-12-22-58-44
+2020-05-12 22:58:46 les scripts de la V6.1.2 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-12 22:58:46 il y a toujours des scripts rejetés dans la version V6.1.2, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-12 23:01:08 DATE 2020-05-12-23-01-06
+2020-05-12 23:01:12 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-12 23:01:12 Creation du dossier sql dans CIFS
+2020-05-12 23:01:12  fin de traitement avec succes 
+2020-05-12 23:42:38 DATE 2020-05-12-23-42-37
+2020-05-12 23:42:40 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-12 23:42:40 Creation du dossier sql dans CIFS
+2020-05-12 23:42:40  fin de traitement avec succes 
+2020-05-12 23:43:35 DATE 2020-05-12-23-43-34
+2020-05-12 23:43:37 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-12 23:43:37 Creation du dossier sql dans CIFS
+2020-05-12 23:43:37  fin de traitement avec succes 
+2020-05-12 23:59:06 DATE 2020-05-12-23-59-05
+2020-05-12 23:59:08 cet version V6.1.4 est deja tester et deployer dans la plateform RCT
+2020-05-13 00:04:40 DATE 2020-05-13-00-04-39
+2020-05-13 00:05:24 DATE 2020-05-13-00-05-22
+2020-05-13 00:05:24 cet version V6.1.4 est deja tester et deployer dans la plateform RCT
+2020-05-13 00:07:44 DATE 2020-05-13-00-07-43
+2020-05-13 00:07:45 cet version V6.1.4 est deja tester et deployer dans la plateform RCT
+2020-05-13 00:09:10 DATE 2020-05-13-00-09-08
+2020-05-13 00:09:11 cet version V6.1.4 est deja tester et deployer dans la plateform RCT
+2020-05-13 00:09:49 DATE 2020-05-13-00-09-48
+2020-05-13 00:09:49 cet version V6.1.4 est deja tester et deployer dans la plateform RCT
+2020-05-13 08:43:35 DATE 2020-05-13-08-43-33
+2020-05-13 08:43:40 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-13 08:43:40 Creation du dossier sql dans CIFS
+2020-05-13 08:43:41  fin de traitement avec succes 
+2020-05-13 08:46:15 DATE 2020-05-13-08-46-13
+2020-05-13 08:46:16 cet version V6.1.4 est deja tester et deployer dans la plateform RCT
+2020-05-13 08:48:36 DATE 2020-05-13-08-48-35
+2020-05-13 08:48:37 les scripts de la V6.1.4 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-13 08:48:37 il y a toujours des scripts rejetés dans la version V6.1.4, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-13 08:51:03 DATE 2020-05-13-08-51-01
+2020-05-13 08:51:08 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-13 08:51:08 Creation du dossier sql dans CIFS
+2020-05-13 08:51:08  fin de traitement avec succes 
+2020-05-13 08:53:15 DATE 2020-05-13-08-53-13
+2020-05-13 08:53:16 cet version V6.1.4 est deja tester et deployer dans la plateform RCT
+2020-05-13 08:54:54 DATE 2020-05-13-08-54-53
+2020-05-13 08:54:55 cet version V6.1.1 est deja tester et deployer dans la plateform RCT
+2020-05-13 08:57:44 DATE 2020-05-13-08-57-42
+2020-05-13 08:57:51 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-13 08:57:51 Creation du dossier sql dans CIFS
+2020-05-13 08:57:51  fin de traitement avec succes 
+2020-05-13 09:00:37 DATE 2020-05-13-09-00-35
+2020-05-13 09:00:44 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-13 09:00:44 Creation du dossier sql dans CIFS
+2020-05-13 09:00:45  fin de traitement avec succes 
+2020-05-13 09:07:50 DATE 2020-05-13-09-07-48
+2020-05-13 09:07:52 cet version V6.1.1 est deja tester et deployer dans la plateform REC
+2020-05-13 09:24:29 DATE 2020-05-13-09-24-27
+2020-05-13 09:24:30 cet version V6.1.1 est deja tester et deployer dans la plateform PROD
+2020-05-13 12:07:35 DATE 2020-05-13-12-07-33
+2020-05-13 12:07:39 cet version V6.1.1 est deja tester et deployer dans la plateform INt
+2020-05-13 12:12:25 DATE 2020-05-13-12-12-23
+2020-05-13 12:12:26 cet version V6.1.1 est deja tester et deployer dans la plateform INt
+2020-05-13 12:16:18 DATE 2020-05-13-12-16-16
+2020-05-13 12:16:25 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-13 12:16:25 Creation du dossier sql dans CIFS
+2020-05-13 12:16:25  fin de traitement avec succes 
+2020-05-13 12:23:44 DATE 2020-05-13-12-23-42
+2020-05-13 12:23:48 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-13 12:23:48 Creation du dossier sql dans CIFS
+2020-05-13 12:23:48  fin de traitement avec succes 
+2020-05-13 12:24:16 DATE 2020-05-13-12-24-14
+2020-05-13 12:24:17 cet version V6.1.2 est deja tester et deployer dans la plateform INt
+2020-05-14 10:57:09 DATE 2020-05-14-10-57-08
+2020-05-14 10:57:15 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-14 10:57:15 Creation du dossier sql dans CIFS
+2020-05-14 10:57:15  fin de traitement avec succes 
+2020-05-14 11:08:19 DATE 2020-05-14-11-08-18
+2020-05-14 11:08:23 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-14 11:08:24 Creation du dossier sql dans CIFS
+2020-05-14 11:08:24  fin de traitement avec succes 
+2020-05-14 11:09:15 DATE 2020-05-14-11-09-14
+2020-05-14 11:09:16 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-14 11:09:16 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-14 11:11:37 DATE 2020-05-14-11-11-36
+2020-05-14 11:11:38 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-14 11:11:38 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-14 11:28:55 DATE 2020-05-14-11-28-53
+2020-05-14 11:29:01 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-14 11:29:01 Creation du dossier sql dans CIFS
+2020-05-14 11:29:01  fin de traitement avec succes 
+2020-05-14 11:32:46 DATE 2020-05-14-11-32-43
+2020-05-14 11:32:52 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-14 11:32:52 Creation du dossier sql dans CIFS
+2020-05-14 11:32:52  fin de traitement avec succes 
+2020-05-14 11:37:36 DATE 2020-05-14-11-37-34
+2020-05-14 11:37:42 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-14 11:37:42 Creation du dossier sql dans CIFS
+2020-05-14 11:37:42  fin de traitement avec succes 
+2020-05-14 11:39:50 DATE 2020-05-14-11-39-49
+2020-05-14 11:39:53 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-14 11:39:53 Creation du dossier sql dans CIFS
+2020-05-14 11:39:53  fin de traitement avec succes 
+2020-05-14 11:41:54 DATE 2020-05-14-11-41-53
+2020-05-14 11:41:58 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-14 11:41:58 Creation du dossier sql dans CIFS
+2020-05-14 11:41:58  fin de traitement avec succes 
+2020-05-14 13:47:38 DATE 2020-05-14-13-47-36
+2020-05-14 13:47:39 cet version V6.1.1 est deja tester et deployer dans la plateform INT
+2020-05-14 13:58:56 DATE 2020-05-14-13-58-54
+2020-05-14 14:00:08 DATE 2020-05-14-14-00-06
+2020-05-14 14:00:14 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-14 14:00:14 Creation du dossier sql dans CIFS
+2020-05-14 14:00:14  fin de traitement avec succes 
+2020-05-14 14:07:08 DATE 2020-05-14-14-07-07
+2020-05-14 14:07:10 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-14 14:07:10 Creation du dossier sql dans CIFS
+2020-05-14 14:07:10  fin de traitement avec succes 
+2020-05-14 14:23:02 DATE 2020-05-14-14-23-01
+2020-05-14 14:23:09 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-14 14:23:09 Creation du dossier sql dans CIFS
+2020-05-14 14:23:09  fin de traitement avec succes 
+2020-05-14 15:20:51 DATE 2020-05-14-15-20-50
+2020-05-14 15:20:52 les scripts de la V6.1.2 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-14 15:20:52 il y a toujours des scripts rejetés dans la version V6.1.2, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-14 15:22:56 DATE 2020-05-14-15-22-54
+2020-05-14 15:23:03 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-14 15:23:03 Creation du dossier sql dans CIFS
+2020-05-14 15:23:03  fin de traitement avec succes 
+2020-05-14 15:44:43 DATE 2020-05-14-15-44-42
+2020-05-14 15:44:49 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-14 15:44:49 Creation du dossier sql dans CIFS
+2020-05-14 15:44:49  fin de traitement avec succes 
+2020-05-14 16:06:42 DATE 2020-05-14-16-06-40
+2020-05-14 16:06:46 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-14 16:06:46 Creation du dossier sql dans CIFS
+2020-05-14 16:06:46  fin de traitement avec succes 
+2020-05-14 16:16:30 DATE 2020-05-14-16-16-28
+2020-05-14 16:16:37 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-14 16:16:37 Creation du dossier sql dans CIFS
+2020-05-14 16:16:37  fin de traitement avec succes 
+2020-05-14 16:22:51 DATE 2020-05-14-16-22-50
+2020-05-14 16:22:57 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-14 16:22:57 Creation du dossier sql dans CIFS
+2020-05-14 16:22:57  fin de traitement avec succes 
+2020-05-14 16:24:42 DATE 2020-05-14-16-24-40
+2020-05-14 16:24:45 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-14 16:24:45 Creation du dossier sql dans CIFS
+2020-05-14 16:24:45  fin de traitement avec succes 
+2020-05-14 16:30:52 DATE 2020-05-14-16-30-49
+2020-05-14 16:30:59 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-14 16:30:59 Creation du dossier sql dans CIFS
+2020-05-14 16:31:00  fin de traitement avec succes 
+2020-05-17 16:49:52 DATE 2020-05-17-16-49-49
+2020-05-17 16:49:52 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-17 16:49:52 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-17 16:51:04 DATE 2020-05-17-16-51-02
+2020-05-17 16:51:05 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-17 16:51:05 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-17 16:55:38 DATE 2020-05-17-16-55-37
+2020-05-17 16:55:48 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-17 16:55:48 Creation du dossier sql dans CIFS
+2020-05-17 16:55:48  fin de traitement avec succes 
+2020-05-17 16:59:25 DATE 2020-05-17-16-59-23
+2020-05-17 16:59:25 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-17 16:59:25 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-17 17:01:04 DATE 2020-05-17-17-01-01
+2020-05-17 17:01:14 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-17 17:01:14 Creation du dossier sql dans CIFS
+2020-05-17 17:01:14  fin de traitement avec succes 
+2020-05-17 17:54:43 DATE 2020-05-17-17-54-41
+2020-05-17 17:54:51 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-17 17:54:51 Creation du dossier sql dans CIFS
+2020-05-17 17:54:51  fin de traitement avec succes 
+2020-05-17 18:51:56 DATE 2020-05-17-18-51-54
+2020-05-17 18:52:01 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-17 18:52:02 Creation du dossier sql dans CIFS
+2020-05-17 18:52:02  fin de traitement avec succes 
+2020-05-17 18:57:10 DATE 2020-05-17-18-57-08
+2020-05-17 18:57:14 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-17 18:57:14 Creation du dossier sql dans CIFS
+2020-05-17 18:57:14  fin de traitement avec succes 
+2020-05-17 19:02:22 DATE 2020-05-17-19-02-18
+2020-05-17 19:02:28 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-17 19:02:28 Creation du dossier sql dans CIFS
+2020-05-17 19:02:28  fin de traitement avec succes 
+2020-05-18 10:17:48 DATE 2020-05-18-10-17-46
+2020-05-18 10:17:53 Les scripts de version V6.1.4 ont été copiés dans le dossier de déploiement
+2020-05-18 10:17:53 Creation du dossier sql dans CIFS
+2020-05-18 10:17:53  fin de traitement avec succes 
+2020-05-18 10:19:55 DATE 2020-05-18-10-19-53
+2020-05-18 10:20:02 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-18 10:20:02 Creation du dossier sql dans CIFS
+2020-05-18 10:20:02  fin de traitement avec succes 
+2020-05-18 10:23:46 DATE 2020-05-18-10-23-45
+2020-05-18 10:23:50 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-18 10:23:50 Creation du dossier sql dans CIFS
+2020-05-18 10:23:50  fin de traitement avec succes 
+2020-05-19 00:25:00 DATE 2020-05-19-00-24-58
+2020-05-19 00:25:01 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-19 00:25:01 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-19 00:28:01 DATE 2020-05-19-00-27-58
+2020-05-19 00:28:02 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-19 00:28:02 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-19 00:29:38 DATE 2020-05-19-00-29-36
+2020-05-19 00:29:44 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 00:29:44 Creation du dossier sql dans CIFS
+2020-05-19 00:29:45  fin de traitement avec succes 
+2020-05-19 00:31:32 DATE 2020-05-19-00-31-30
+2020-05-19 00:31:38 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 00:31:38 Creation du dossier sql dans CIFS
+2020-05-19 00:31:38  fin de traitement avec succes 
+2020-05-19 10:19:35 DATE 2020-05-19-10-19-33
+2020-05-19 10:19:41 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 10:19:42 Creation du dossier sql dans CIFS
+2020-05-19 10:19:42  fin de traitement avec succes 
+2020-05-19 11:09:20 DATE 2020-05-19-11-09-18
+2020-05-19 11:09:26 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 11:09:26 Creation du dossier sql dans CIFS
+2020-05-19 11:09:26  fin de traitement avec succes 
+2020-05-19 12:02:41 DATE 2020-05-19-12-02-39
+2020-05-19 12:02:48 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 12:02:48 Creation du dossier sql dans CIFS
+2020-05-19 12:02:48  fin de traitement avec succes 
+2020-05-19 12:12:07 DATE 2020-05-19-12-12-06
+2020-05-19 12:12:14 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 12:12:14 Creation du dossier sql dans CIFS
+2020-05-19 12:12:14  fin de traitement avec succes 
+2020-05-19 12:22:57 DATE 2020-05-19-12-22-54
+2020-05-19 12:23:05 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 12:23:05 Creation du dossier sql dans CIFS
+2020-05-19 12:23:05  fin de traitement avec succes 
+2020-05-19 12:34:52 DATE 2020-05-19-12-34-49
+2020-05-19 12:34:56 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 12:34:56 Creation du dossier sql dans CIFS
+2020-05-19 12:34:56  fin de traitement avec succes 
+2020-05-19 12:39:09 DATE 2020-05-19-12-39-07
+2020-05-19 12:39:15 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 12:39:15 Creation du dossier sql dans CIFS
+2020-05-19 12:39:15  fin de traitement avec succes 
+2020-05-19 12:42:01 DATE 2020-05-19-12-41-59
+2020-05-19 12:42:05 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 12:42:05 Creation du dossier sql dans CIFS
+2020-05-19 12:42:05  fin de traitement avec succes 
+2020-05-19 12:46:32 DATE 2020-05-19-12-46-30
+2020-05-19 12:46:35 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-19 12:46:35 Creation du dossier sql dans CIFS
+2020-05-19 12:46:35  fin de traitement avec succes 
+2020-05-19 13:13:15 DATE 2020-05-19-13-13-13
+2020-05-19 13:13:18 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 13:13:18 Creation du dossier sql dans CIFS
+2020-05-19 13:13:18  fin de traitement avec succes 
+2020-05-19 13:18:40 DATE 2020-05-19-13-18-38
+2020-05-19 13:18:43 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 13:18:43 Creation du dossier sql dans CIFS
+2020-05-19 13:18:43  fin de traitement avec succes 
+2020-05-19 13:30:03 DATE 2020-05-19-13-30-02
+2020-05-19 13:30:04 les scripts de la V6.1.2 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-19 13:30:04 il y a toujours des scripts rejetés dans la version V6.1.2, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-19 13:33:26 DATE 2020-05-19-13-33-24
+2020-05-19 13:33:31 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 13:33:32 Creation du dossier sql dans CIFS
+2020-05-19 13:33:32  fin de traitement avec succes 
+2020-05-19 13:39:07 DATE 2020-05-19-13-39-05
+2020-05-19 13:39:12 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-19 13:39:12 Creation du dossier sql dans CIFS
+2020-05-19 13:39:12  fin de traitement avec succes 
+2020-05-19 15:39:12 DATE 2020-05-19-15-39-09
+2020-05-19 15:39:18 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 15:39:19 Creation du dossier sql dans CIFS
+2020-05-19 15:39:19  fin de traitement avec succes 
+2020-05-19 15:45:18 DATE 2020-05-19-15-45-16
+2020-05-19 15:45:22 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 15:45:22 Creation du dossier sql dans CIFS
+2020-05-19 15:45:22  fin de traitement avec succes 
+2020-05-19 16:05:16 DATE 2020-05-19-16-05-15
+2020-05-19 16:05:22 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 16:05:22 Creation du dossier sql dans CIFS
+2020-05-19 16:05:23  fin de traitement avec succes 
+2020-05-19 16:47:19 DATE 2020-05-19-16-47-17
+2020-05-19 16:47:24 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 16:47:24 Creation du dossier sql dans CIFS
+2020-05-19 16:47:24  fin de traitement avec succes 
+2020-05-19 16:56:54 DATE 2020-05-19-16-56-51
+2020-05-19 16:57:00 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-19 16:57:00 Creation du dossier sql dans CIFS
+2020-05-19 16:57:00  fin de traitement avec succes 
+2020-05-20 09:22:56 DATE 2020-05-20-09-22-54
+2020-05-20 09:23:03 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-20 09:23:03 Creation du dossier sql dans CIFS
+2020-05-20 09:23:03  fin de traitement avec succes 
+2020-05-20 09:24:37 DATE 2020-05-20-09-24-34
+2020-05-20 09:24:42 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-20 09:24:42 Creation du dossier sql dans CIFS
+2020-05-20 09:24:42  fin de traitement avec succes 
+2020-05-20 09:30:15 DATE 2020-05-20-09-30-13
+2020-05-20 09:30:21 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-20 09:30:21 Creation du dossier sql dans CIFS
+2020-05-20 09:30:21  fin de traitement avec succes 
+2020-05-20 09:35:04 DATE 2020-05-20-09-35-03
+2020-05-20 09:35:06 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-20 09:35:06 Creation du dossier sql dans CIFS
+2020-05-20 09:38:03 DATE 2020-05-20-09-38-00
+2020-05-20 09:41:02 DATE 2020-05-20-09-40-59
+2020-05-20 09:41:10 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-20 09:41:10 Creation du dossier sql dans CIFS
+2020-05-20 09:41:10  fin de traitement avec succes 
+2020-05-20 09:43:56 DATE 2020-05-20-09-43-54
+2020-05-20 09:44:00 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-20 09:44:00 Creation du dossier sql dans CIFS
+2020-05-20 09:44:01  fin de traitement avec succes 
+2020-05-20 10:00:50 DATE 2020-05-20-10-00-48
+2020-05-20 10:00:51 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-20 10:00:51 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-20 10:01:16 DATE 2020-05-20-10-01-14
+2020-05-20 10:01:16 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-20 10:01:17 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-20 10:02:40 DATE 2020-05-20-10-02-37
+2020-05-20 10:02:40 les scripts de la V6.1.1 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-20 10:02:41 il y a toujours des scripts rejetés dans la version V6.1.1, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-20 10:06:02 DATE 2020-05-20-10-06-00
+2020-05-20 10:06:06 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-20 10:06:06 Creation du dossier sql dans CIFS
+2020-05-20 10:06:06  fin de traitement avec succes 
+2020-05-20 10:07:40 DATE 2020-05-20-10-07-38
+2020-05-20 10:07:45 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-20 10:07:45 Creation du dossier sql dans CIFS
+2020-05-20 10:07:45  fin de traitement avec succes 
+2020-05-20 10:08:59 DATE 2020-05-20-10-08-55
+2020-05-20 10:09:02 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-20 10:09:02 Creation du dossier sql dans CIFS
+2020-05-20 10:13:09 DATE 2020-05-20-10-13-07
+2020-05-20 10:13:15 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-20 10:13:15 Creation du dossier sql dans CIFS
+2020-05-20 10:13:16  fin de traitement avec succes 
+2020-05-20 10:15:50 DATE 2020-05-20-10-15-47
+2020-05-20 10:15:55 Les scripts de version V6.1.1 ont été copiés dans le dossier de déploiement
+2020-05-20 10:15:55 Creation du dossier sql dans CIFS
+2020-05-20 10:15:55  fin de traitement avec succes 
+2020-05-20 10:19:20 DATE 2020-05-20-10-19-17
+2020-05-20 10:19:20 les scripts de la V6.1.2 ne peuvent pas être copiés dans le dossier de déploiement 
+2020-05-20 10:19:20 il y a toujours des scripts rejetés dans la version V6.1.2, soit ils sont mal nommés,ou ils ont échoué pendant le test (verifier la table de register)
+2020-05-20 10:21:02 DATE 2020-05-20-10-21-00
+2020-05-20 10:21:06 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-20 10:21:07 Creation du dossier sql dans CIFS
+2020-05-20 10:21:07  fin de traitement avec succes 
+2020-05-20 10:23:22 DATE 2020-05-20-10-23-20
+2020-05-20 10:23:25 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-20 10:23:25 Creation du dossier sql dans CIFS
+2020-05-20 10:23:25  fin de traitement avec succes 
+2020-05-20 10:25:40 DATE 2020-05-20-10-25-39
+2020-05-20 10:25:43 Les scripts de version V6.1.2 ont été copiés dans le dossier de déploiement
+2020-05-20 10:25:43 Creation du dossier sql dans CIFS
+2020-05-20 10:25:43  fin de traitement avec succes 
