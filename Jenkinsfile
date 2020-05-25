@@ -11,27 +11,27 @@ pipeline {
     stages {
         stage('export_shema') {          
               steps {
-		    //withCredentials([
-			//		usernamePassword(
-			//			credentialsId: '0467c09c-9a30-4e9f-bdc9-6126fd2482d4', 
-			//			usernameVariable: 'USERNAME',
-			//			passwordVariable: 'PASSWORD'
+		    withCredentials([
+					usernamePassword(
+						credentialsId: '0467c09c-9a30-4e9f-bdc9-6126fd2482d4', 
+						usernameVariable: 'USERNAME',
+						passwordVariable: 'PASSWORD'
 						
 						
-			//		)
-			//]){
-        //script{
+					)
+			]){
+        script{
 			
 		//bat "sh  ./get_scripts.sh ${WORKSPACE} ${USERNAME}  ${PASSWORD} ${RELEASE_VERSION_NUMBER_TO_USE} "
-                   // if(CHOIX == 'no_data')
-                     //   bat "sh  ./export_db_no_data.sh ${WORKSPACE} ${USERNAME}  ${PASSWORD} ${RELEASE_VERSION_NUMBER_TO_USE}"
-                    //else
-                      bat "sh  ./export_db_no_data.sh"
-               // }
-		 //   }
-      //}
+                  if(CHOIX == 'no_data')
+                       bat "sh  ./t.sh ${JOB_NAME} workspace 6.1.1 ${USERNAME}  ${PASSWORD} PATT_UTILS"
+                    else
+                      echo "${JOB_NAME}"
+                }
+		    }
+      }
           echo "++++"
-        echo "${JOB_NAME}"
+        
 		      echo "${workspace}"
           
       }
