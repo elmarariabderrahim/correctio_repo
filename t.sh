@@ -197,6 +197,7 @@ Handle_Directory_Script() {
 #if [ $# -gt 3 ]; then 
 if [[ ${PLATEFORME_SOURCE} != "" ]]; then 
 # VERSIONED_SQL_SCRIPTS_DIRECTORY=${SQL_DEPLOYMENT_DIRECTORY}/${PLATEFORME_SOURCE}/$VERSION_NUMBER/PROCESSED
+echo $PLATEFORME_SOURCE
 		VERSIONED_SQL_SCRIPTS_DIRECTORY=appli/deployment/sql/${PLATEFORME_SOURCE}/$VERSION_NUMBER/PROCESSED
 # afin de tester les scripts déjà testés dans PLATEFORME_SOURCE  dans PLATEFORME
 	# mysql --batch mysql -u $username -p$password -N -e "use db5; update scripts set  script_state='failed' , script_handled ='encour'  where version='$VERSION_NAME' ;"

@@ -157,7 +157,7 @@ export VERSIONED_SQL_DEPLOYMENT_DIRECTORY_PROCESSED=$VERSIONED_SQL_DEPLOYMENT_DI
 ## chemin vers le dossier contenant les scripts sql recuperes depuis git
 #export SQL_SCRIPTS_DIRECTORY=$WORKSPACE/PATT_UTILS/sql
 export GIT_SQL_SCRIPTS_DIRECTORY=$WORKSPACE/$PROJECT_SQL_NAME/sql
-
+echo $GIT_SQL_SCRIPTS_DIRECTORY
 ## chemin vers le sous dossier de la version en cours du dossier contenant les scripts sql recuperes depuis git
 #export VERSIONED_SQL_SCRIPTS_DIRECTORY=$SQL_SCRIPTS_DIRECTORY/$VERSION_NAME
 export VERSIONED_GIT_SQL_SCRIPTS_DIRECTORY=$GIT_SQL_SCRIPTS_DIRECTORY/$VERSION_NAME
