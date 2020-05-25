@@ -205,7 +205,8 @@ if [[ ${PLATEFORME_SOURCE} != "" ]]; then
 	mysql --batch mysql -u $username -p$password -N -e "use db5; update scripts set  script_state='failed' , script_handled ='encour'  where script_id IN (select script_id from execution_plateforme where \`$PLATEFORME\`=0)  and version='$VERSION_NAME' and script_state='valid' ;"
 		mysql --batch mysql -u $username -p$password -N -e "use db5; update scripts set  script_state='failed' , script_handled ='encour'  where script_id  IN (select script_id from execution_plateforme where \`$PLATEFORME\`=0) and version='$VERSION_NAME' and  script_state='invalid' ;"
 
-else echo "1"
+else 
+	echo "1  $PROJECT_SQL_NAME"
 	VERSIONED_SQL_SCRIPTS_DIRECTORY=${VERSIONED_GIT_SQL_SCRIPTS_DIRECTORY}
 fi
 
