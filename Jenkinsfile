@@ -23,10 +23,10 @@ pipeline {
         script{
 			
 		//bat "sh  ./get_scripts.sh ${WORKSPACE} ${USERNAME}  ${PASSWORD} ${RELEASE_VERSION_NUMBER_TO_USE} "
-                  if(CHOIX == 'no_data')
+                  //if(CHOIX == 'no_data')
                        bat "sh  ./t.sh ${JOB_NAME} workspace 6.1.1 ${USERNAME}  ${PASSWORD} PATT_UTILS"
-                    else
-                      echo "${JOB_NAME}"
+                    //else
+                      //echo "${JOB_NAME}"
                 }
 		    }
       }
