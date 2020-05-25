@@ -76,8 +76,8 @@ Read_DB_Name() {
 }
 
 if [[ ! ($VERSION_NAME =~ $VERSION_REGEXP) ]]; then
-	log "le numero de version indique $VERSION_NAME ne respecte pas le format attendu (ex V6.1.4) "
-	log "FIN DES TRAITEMENTS AVEC ERREUR VOIR FICHIER DE LOG ${LOG_FILE}"
+	echo "le numero de version indique $VERSION_NAME ne respecte pas le format attendu (ex V6.1.4) "
+	echo "FIN DES TRAITEMENTS AVEC ERREUR VOIR FICHIER DE echo ${echo_FILE}"
 	exit 1
 fi
 
@@ -86,28 +86,28 @@ fi
 TIMESTAMP=`date '+%Y-%m-%d-%H:%M:%S'`
 echo =======================================$TIMESTAMP
 DATE_NOW=`date '+%Y-%m-%d-%H-%M-%S'`
-log "DATE_NOW $DATE_NOW"
-log "PLATEFORME $PLATEFORME"
+echo "DATE_NOW $DATE_NOW"
+echo "PLATEFORME $PLATEFORME"
 PIPE="|"
 
 Handle_Directory_Script() {
 #for inode in `ls -1 $VERSIONED_SQL_SCRIPTS_DIRECTORY`
 	SCRIPT_NOT_HANDLED_LIST=()
-	log " Traitement du repertoire sql $1 "
+	echo " Traitement du repertoire sql $1 "
 	for inode in `ls -1 $1`
 	do
-		log "------------------------------------------------------------------------------------------"
-		log "inode $inode"
+		echo "------------------------------------------------------------------------------------------"
+		echo "inode $inode"
 		SCRIPT_PF_DEPENDANT=1
 		CHECKSUM_VALUE=`md5sum $1/$inode | awk '{print $1}'`
 		#-----if the script has been modified
 		if [[ !(${list_script[*]} =~ "$inode") ]] && [[ !(${list_checksum[*]} =~ "$CHECKSUM_VALUE") ]] || [[ ${list_script[*]} =~ "$inode" ]] && [[ !(${list_checksum[*]} =~ "$CHECKSUM_VALUE") ]] || [[ ${list_rejected_scripts[*]} =~ "$CHECKSUM_VALUE" ]]
 		then
 		
-			log "Le fichier $inode est a traiter car il n'est pas dans register ou il y est mais avec un checksum different"
+			echo "Le fichier $inode est a traiter car il n'est pas dans register ou il y est mais avec un checksum different"
 			DB_NAME_IN_SCRIPT_UPPERCASE=`Read_DB_Name $1/$inode 1`
 			DB_NAME_IN_SCRIPT_LOWERCASE=`Read_DB_Name $1/$inode 2`
-			log "DB_NAME_IN_SCRIPT_UPPERCASE $DB_NAME_IN_SCRIPT_UPPERCASE"
+			echo "DB_NAME_IN_SCRIPT_UPPERCASE $DB_NAME_IN_SCRIPT_UPPERCASE"
 			INODE_UPPERCASE=$(echo $inode | tr '[:lower:]' '[:upper:]')
 			if [[ ! ($INODE_UPPERCASE =~ $SCRIPT_NAME_REGEXP) ]] || [[ $INODE_UPPERCASE != *"${DB_NAME_IN_SCRIPT_UPPERCASE}"* ]]
 			
@@ -116,26 +116,26 @@ Handle_Directory_Script() {
 				if [[ !(${list_script[*]} =~ "$inode") ]] 
 				then
 			     mysql -u$username -p$password -Bse "use db5;insert into scripts (script_name,date_build,script_name_regex,script_handled,CHECKSUM_VALUE,version ,script_platform ) values('$inode','$TIMESTAMP','ko','encour','$CHECKSUM_VALUE','$VERSION_NAME','encour');"
-			 		log "Le fichier $inode ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees"
+			 		echo "Le fichier $inode ne peut etre traite car il est mal nomme ou contient une incoherence au niveau du nom de la base de donnees"
 				
 			 	fi
 			 	if [[ ${list_rejected_scripts[*]} =~ "$CHECKSUM_VALUE" ]] 
 			 	then
 			 		 mysql -u$username -p$password -Bse "use db5;update  scripts set  script_name='$inode' where CHECKSUM_VALUE='CHECKSUM_VALUE';"
-			 		 log "le script $inode est encour mal nomme"
+			 		 echo "le script $inode est encour mal nomme"
 			 	fi
 			 	THERE_WERE_REJECTED_FILES=1
 				
 			else
 				{
 					NAME_PF_PART_TEMP="${INODE_UPPERCASE/$DB_NAME_IN_SCRIPT_UPPERCASE/$PIPE}"
-					log "DB_NAME_IN_SCRIPT_UPPERCASE $DB_NAME_IN_SCRIPT_UPPERCASE"
-					log "NAME_PF_PART_TEMP $NAME_PF_PART_TEMP"
+					echo "DB_NAME_IN_SCRIPT_UPPERCASE $DB_NAME_IN_SCRIPT_UPPERCASE"
+					echo "NAME_PF_PART_TEMP $NAME_PF_PART_TEMP"
 					#NAME_PF_PART=$(echo $inode | awk '{split($0, a, "${DB_NAME_IN_SCRIPT_UPPERCASE}"); print a[1]}')
 					NAME_PF_PART=$(echo $NAME_PF_PART_TEMP | awk 'BEGIN { FS = "|" } ; { print $1 }')
-					log "NAME_PF_PART $NAME_PF_PART"
+					echo "NAME_PF_PART $NAME_PF_PART"
 					NAME_PF_PART=$(echo $NAME_PF_PART | awk 'BEGIN { FS = "PF" } ; { print $2 }')
-					log "NAME_PF_PART $NAME_PF_PART"
+					echo "NAME_PF_PART $NAME_PF_PART"
 					# TODO a revoir pour prendre en compte les cas où c'est écrit REC, ou INT ou REC_INT_TEST
 					if [[ $NAME_PF_PART != *"RCT1_"* ]] && [[ $NAME_PF_PART != *"RCT2_"* ]] && [[ $NAME_PF_PART != *"RCT_"* ]] &&[[ $NAME_PF_PART != *"REC1_"* ]] && [[ $NAME_PF_PART != *"REC2_"* ]] && [[ $NAME_PF_PART != *"REC_"* ]] && [[ $NAME_PF_PART != *"INT_"* ]] && [[ $NAME_PF_PART != *"PROD_"* ]] && [[ $NAME_PF_PART != *"DEV_"* ]] && [[ $NAME_PF_PART != *"TEST_"* ]] && [[ $NAME_PF_PART != *"INT0_"* ]] && [[ $NAME_PF_PART != *"INT1_"* ]] && [[ $NAME_PF_PART != *"INT2_"* ]] && [[ $NAME_PF_PART != *"INT3_"* ]] && [[ $NAME_PF_PART != *"INT4_"* ]] && [[ $NAME_PF_PART != *"INT5_"* ]]
 						then
@@ -152,9 +152,9 @@ Handle_Directory_Script() {
 						if [[ $NAME_PF_PART = *"INT_"* ]]; then
 							NAME_PF_PART="${NAME_PF_PART}INT0_INT1_INT2_INT3_INT4_INT5_"
 						fi
-						log "NAME_PF_PART $NAME_PF_PART"
+						echo "NAME_PF_PART $NAME_PF_PART"
 					fi
-					log "SCRIPT_PF_DEPENDANT $SCRIPT_PF_DEPENDANT"
+					echo "SCRIPT_PF_DEPENDANT $SCRIPT_PF_DEPENDANT"
 					
 					COPY_TARGET="${VERSIONED_SQL_DEPLOYMENT_DIRECTORY_PROCESSED}"
 					
@@ -167,13 +167,13 @@ Handle_Directory_Script() {
 						if [[ !(${list_script[*]} =~ "$inode") ]] && [[ !(${list_checksum[*]} =~ "$CHECKSUM_VALUE") ]]
 							then
 							mysql -u$username -p$password -Bse "use db5;insert into scripts (date_build,script_name,script_handled,CHECKSUM_VALUE,script_name_regex,version ,script_platform) values('$TIMESTAMP','$inode','encour','$CHECKSUM_VALUE','ok','$VERSION_NAME','encour');"
-							log "Le fichier $inode a ete traite avec succes et ajoute dans le registre des scripts traites"
+							echo "Le fichier $inode a ete traite avec succes et ajoute dans le registre des scripts traites"
 
 						fi
 
 						if [[ ${list_script[*]} =~ "$inode" ]] && [[ !(${list_checksum[*]} =~ "$CHECKSUM_VALUE") ]]
 						then 
-							log " le script $inode a ete modifier "
+							echo " le script $inode a ete modifier "
 							mysql -u$username -p$password -Bse "use db5;update scripts set CHECKSUM_VALUE='$CHECKSUM_VALUE', script_handled='encour', date_build='$TIMESTAMP', script_state='failed' where script_name='$inode';"
 						fi
 
@@ -181,7 +181,7 @@ Handle_Directory_Script() {
  						then
 
  							mysql -u$username -p$password -Bse "use db5;update  scripts set  script_name='$inode',script_name_regex='ok' where CHECKSUM_VALUE='$CHECKSUM_VALUE';"
- 							log "le nom du script $inode a ete corriger "
+ 							echo "le nom du script $inode a ete corriger "
  						fi
 					fi		
 				}	
@@ -216,15 +216,15 @@ fi
 
 
 
-log "SQL_SCRIPTS_DIRECTORY_COUNT $SQL_SCRIPTS_DIRECTORY_COUNT"
-# log "REJECTED_FILE ${REJECTED_FILE}"
+echo "SQL_SCRIPTS_DIRECTORY_COUNT $SQL_SCRIPTS_DIRECTORY_COUNT"
+# echo "REJECTED_FILE ${REJECTED_FILE}"
 
 if [ $SQL_SCRIPTS_DIRECTORY_COUNT -gt 0 ]
 	then
-		log "creation du repertoire ${VERSIONED_SQL_DEPLOYMENT_DIRECTORY} "
+		echo "creation du repertoire ${VERSIONED_SQL_DEPLOYMENT_DIRECTORY} "
 		# mkdir -p ${VERSIONED_SQL_DEPLOYMENT_DIRECTORY}
 		mkdir -p appli/deployment/sql/$PLATEFORME/$VERSION_NUMBER
-		log "De nouveaux scripts sql sont a traiter dans les dossiers $VERSIONED_SQL_SCRIPTS_DIRECTORY "
+		echo "De nouveaux scripts sql sont a traiter dans les dossiers $VERSIONED_SQL_SCRIPTS_DIRECTORY "
 		#mkdir -p $VERSIONED_SQL_DEPLOYMENT_DIRECTORY
 		
 		#mkdir -p $VERSIONED_SQL_DEPLOYMENT_DIRECTORY_PROCESSED/$DATE_NOW
@@ -233,8 +233,8 @@ if [ $SQL_SCRIPTS_DIRECTORY_COUNT -gt 0 ]
 
 		
 	else	
-		log "Aucun script trouve dans les dossiers $VERSIONED_SQL_SCRIPTS_DIRECTORY ! Veuillez verifier le numero de version indique"
-		log "FIN DES TRAITEMENTS AVEC SUCCES MAIS IL N'Y AVAIT AUCUN SCRIPT A TRAITER"
+		echo "Aucun script trouve dans les dossiers $VERSIONED_SQL_SCRIPTS_DIRECTORY ! Veuillez verifier le numero de version indique"
+		echo "FIN DES TRAITEMENTS AVEC SUCCES MAIS IL N'Y AVAIT AUCUN SCRIPT A TRAITER"
 		exit 0
 fi
 
@@ -247,11 +247,11 @@ fi
 
 
 if [ $THERE_WERE_REJECTED_FILES -gt 0 ] || [ ${#rejected_script[@]} -gt 0 ]  ; then
-	log "Rectifier les scripts rejetes (voir la table rejected_scripts)"
+	echo "Rectifier les scripts rejetes (voir la table rejected_scripts)"
 else 
-	log "Tous les scripts qui sont bien nommes ont ete pris "
+	echo "Tous les scripts qui sont bien nommes ont ete pris "
 fi
-log "------------------------------------------------------------------------------------------"
+echo "------------------------------------------------------------------------------------------"
 #========================================================================================================
 #   Clone des BD specifiers dans les scripts 
 #========================================================================================================
@@ -315,7 +315,7 @@ Read_DB_Name() {
 					list_database_in_script+=($DB_NAME)		
 				fi
 			else
-				log " ****** la base de donnee n'est pas specifier dans le script $script_name ******"
+				echo " ****** la base de donnee n'est pas specifier dans le script $script_name ******"
 			fi
 		fi
 	done
@@ -323,7 +323,7 @@ Read_DB_Name() {
 	db_number=${#list_database_in_script[@]}
 	if [[ $db_number != 0 ]]
 	then 
-	log "nombre des bases invoquer dans les scripts est $db_number (${list_database_in_script[@]})	" 
+	echo "nombre des bases invoquer dans les scripts est $db_number (${list_database_in_script[@]})	" 
 	fi
 
 	 # inportation des bases invoquer dans les scripts
@@ -339,7 +339,7 @@ Read_DB_Name() {
 		rm -rf $d.sql
 	done
 
-log "------------------------------------------------------------------------------------------"
+echo "------------------------------------------------------------------------------------------"
 #========================================================================================================
 #   test des scripts qui respecet name regex 
 #========================================================================================================
@@ -397,17 +397,17 @@ do
 							if [[ ${results_of_failed_scripts[*]} =~ "$script_name" ]] 
 							then
 								mysql -u$username -p$password -Bse "use db5;update scripts set  script_state = 'succes' where script_name='$script_name';"
-								log "****** le script $script_name est passer avec succes ******"
+								echo "****** le script $script_name est passer avec succes ******"
 							else
-								log "****** le script $script_name est passer avec succes ******"
+								echo "****** le script $script_name est passer avec succes ******"
 								mysql -u$username -p$password -Bse "use db5;update scripts set script_state = 'succes' where script_name='$script_name';;"
 							fi
 					else
 							if [[ ${results_of_failed_scripts[*]} =~ "$script_name" ]] 
 							then
-							log "****** le script $script_name n'a pas été corrigé ******"
+							echo "****** le script $script_name n'a pas été corrigé ******"
 							else
-							log "****** le script ${script_name} a échoué ******"
+							echo "****** le script ${script_name} a échoué ******"
 							 
 							mysql -u$username -p$password -Bse "use db5;update scripts set script_state = 'failed' where script_name='$script_name';"
 							fi
@@ -431,7 +431,7 @@ do
 					mysql  -u$username -p$password -Bse "SET AUTOCOMMIT=0; $varrr " 
 
 					if [ "$?" -eq 0 ]; then
-						log "****** l'insertion est passer par succes dans $script_name ******"
+						echo "****** l'insertion est passer par succes dans $script_name ******"
 						# mysql -P $docker_mysql_port --protocol=tcp -uroot -ppixid123 -Bse "commit;"
 						mysql  -u$username -p$password -Bse "ROLLBACK;"
 
@@ -449,16 +449,16 @@ do
 						mysql  -u$username -p$password -Bse "ROLLBACK;"
 						if [[ ${results_of_failed_scripts[*]} =~ "$script_name" ]] 
 							then
-								log "****** le script $script_name n'a pas été corrigé ******"
+								echo "****** le script $script_name n'a pas été corrigé ******"
 						else
-							log " ****** l'insertion  a échoué dans $script_name ******"
+							echo " ****** l'insertion  a échoué dans $script_name ******"
 								mysql -u$username -p$password -Bse "use db5;update scripts set script_state = 'failed' where script_name='$script_name';"
 						fi
 					fi
 			else
 				if [[ !(${RESULTS_OF_REJECTED_SCRIPTS[*]} =~ "$script_name") ]] 
 				then
-					log "****** le script $script_name est deja testé ******"
+					echo "****** le script $script_name est deja testé ******"
 				fi
 			fi
 done
@@ -471,10 +471,10 @@ SCRIPT_NOT_HANDLED_COUNT=${#SCRIPT_REJECTED_LIST[@]}
 	if [ $SCRIPT_NOT_HANDLED_COUNT -gt "0" ]
 		then
 		
-		log "Certains fichiers n'ont pas ete traites: "
+		echo "Certains fichiers n'ont pas ete traites: "
 		for SCRIPT_NOT_HANDLED in "${SCRIPT_REJECTED_LIST[@]}"
 			do
-				# log "Le fichier $SCRIPT_NOT_HANDLED est mal nomme : Soit il ne respecte pas le format attendu soit le schema indique dans le nom du fichier est different du schema utilise dans le contenu du script "
+				# echo "Le fichier $SCRIPT_NOT_HANDLED est mal nomme : Soit il ne respecte pas le format attendu soit le schema indique dans le nom du fichier est different du schema utilise dans le contenu du script "
 				echo  $SCRIPT_NOT_HANDLED >> appli/deployment/sql/$PLATEFORME/$VERSION_NUMBER/rejected
 				#$VERSIONED_SQL_DEPLOYMENT_DIRECTORY_REJECTED/REJECTED
 		done
