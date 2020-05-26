@@ -9,7 +9,7 @@ pipeline {
 	       description: '1 : Exportation complete de la DB\n2 : Choix des composants necessaires')
          } 
     stages {
-        stage('export_shema') {          
+        stage('handle and transfer scripts') {          
               steps {
 		    withCredentials([
 					usernamePassword(
