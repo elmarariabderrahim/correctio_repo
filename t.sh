@@ -487,4 +487,4 @@ SCRIPT_NOT_HANDLED_COUNT=${#SCRIPT_REJECTED_LIST[@]}
 	fi
 
 sh ./copy.sh $JOB_NAME $VERSION_NUMBER $username $password $PROJECT_SQL_NAME $WORKSPACE $PLATEFORME_SOURCE
-sh ./maj_table_scripts.sh $JOB_NAME workspace 6.1.2 $username $password
+
