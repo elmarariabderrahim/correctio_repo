@@ -138,3 +138,5 @@ echo "${TIMESTAMP}|BUILD_RUNNING" >> appli/deployment/sql/$PLATEFORME/$VERSION_N
 
 # RELEASE_TIME=`date '+%Y %m %d - %Hh%M'`
 # sed -i "s/{{VERSION_NUMBER}}/${VERSION_NUMBER}/g; s/{{RELEASE_TIME}}/${RELEASE_TIME}/g" $NEW_HTML_TAG |& tee -a ${echo_FILE}
+
+sh ./maj_table_scripts.sh $JOB_NAME $WORKSPACE $VERSION_NUMBER $username $password
