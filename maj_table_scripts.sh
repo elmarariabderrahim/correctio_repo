@@ -28,32 +28,35 @@ SCRIPT_BASEDIR_PATH=$(dirname "$SCRIPT_PATH")
 # log "Recuperation des noms des scripts dont l'execution a reussie depuis $TARGET_HOST/${SQL_EXECUTION_RESULT_FILE}"
 # TEMP_SUCCESS_SCRIPTS=`ssh -i /appli/.ssh/id_rsa -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null root@${TARGET_HOST} bash -c "'cat ${SQL_EXECUTION_RESULT_FILE}'"`
 TEMP_SUCCESS_SCRIPTS=()
-TEMP_SUCCESS_SCRIPTS+=("001_ABD_PROVIDER_TI_67087_sjnlsfl.sql|a83e78cc9e56ab8f48887bcced0b180c")
-TEMP_SUCCESS_SCRIPTS+=("012_AMN_MISSION_TI_7654_fgjkfa.sql|95ef924d079acdbd80009c2387e9cf94")
-TEMP_SUCCESS_SCRIPTS+=("015_AME_MISSION_TI_7654_fgjkfa.sql|95ef924d079acdbd80009c2387e9cf94")
-TEMP_SUCCESS_SCRIPTS+=("001_AEL_PIXID_TI_67899_sjnlsfl.sql 95ef924d079acdbd80009c2387e9cf94")
-TEMP_SUCCESS_SCRIPTS+=("001_AEL_PROVIDER_TI_67899_sjnlsfl.sql|95ef924d079acdbd80009c2387e9cf94")
-TEMP_SUCCESS_SCRIPTS+=("013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql|95ef924d079acdbd80009c2387e9cf94")
-TEMP_SUCCESS_SCRIPTS+=("014_AME_MISSION_TI_7654_fgjkfa.sql|95ef924d079acdbd80009c2387e9cf94")
+# TEMP_SUCCESS_SCRIPTS+=("001_ABD_PROVIDER_TI_67087_sjnlsfl.sql|a83e78cc9e56ab8f48887bcced0b180c")
+# TEMP_SUCCESS_SCRIPTS+=("012_AMN_MISSION_TI_7654_fgjkfa.sql|95ef924d079acdbd80009c2387e9cf94")
+# TEMP_SUCCESS_SCRIPTS+=("015_AME_MISSION_TI_7654_fgjkfa.sql|95ef924d079acdbd80009c2387e9cf94")
+# TEMP_SUCCESS_SCRIPTS+=("001_AEL_PIXID_TI_67899_sjnlsfl.sql 95ef924d079acdbd80009c2387e9cf94")
+# TEMP_SUCCESS_SCRIPTS+=("001_AEL_PROVIDER_TI_67899_sjnlsfl.sql|95ef924d079acdbd80009c2387e9cf94")
+# TEMP_SUCCESS_SCRIPTS+=("013_KZD_DWHSTAGE_TI_67899_sjnlsfl.sql|95ef924d079acdbd80009c2387e9cf94")
+# TEMP_SUCCESS_SCRIPTS+=("014_AME_MISSION_TI_7654_fgjkfa.sql|95ef924d079acdbd80009c2387e9cf94")
 
 log "TEMP_SUCCESS_SCRIPTS : ${#TEMP_SUCCESS_SCRIPTS[@]}"
+if [[ ${#TEMP_SUCCESS_SCRIPTS[@]} != 0 ]]
+then
+	for script_succed in ${TEMP_SUCCESS_SCRIPTS[@]}
+	do
+		echo "----------$script_succed est valider ---------"
 
-for script_succed in ${TEMP_SUCCESS_SCRIPTS[@]}
-do
-	echo "----------$script_succed est valider ---------"
+			 mysql --batch mysql -u $username -p$password -N -e "use db5; update scripts set script_state ='valid' where (SELECT INSTR( '$script_succed' , script_name ) !=0) and script_state='succes' and script_handled='traite' ;update execution_plateforme set \`$PLATEFORME\`= 0 where script_id in (select script_id from scripts where (select INSTR( '$script_succed' , script_name ) = 0)) ;"
+			  # mysql --batch mysql -u $username -p$password -N -e "use db5; update execution_plateforme set \`$PLATEFORME\`= 0 where script_id in (select script_id from scripts where (select INSTR( '$script_succed' , script_name ) = 0));"
 
-		 mysql --batch mysql -u $username -p$password -N -e "use db5; update scripts set script_state ='valid' where (SELECT INSTR( '$script_succed' , script_name ) !=0) and script_state='succes' and script_handled='traite' ;update execution_plateforme set \`$PLATEFORME\`= 0 where script_id in (select script_id from scripts where (select INSTR( '$script_succed' , script_name ) = 0)) ;"
-		  # mysql --batch mysql -u $username -p$password -N -e "use db5; update execution_plateforme set \`$PLATEFORME\`= 0 where script_id in (select script_id from scripts where (select INSTR( '$script_succed' , script_name ) = 0));"
-
-done
-for script_succed in ${TEMP_SUCCESS_SCRIPTS[@]}
-do
-	echo "----------$script_succed est invalid---------"
-		  mysql --batch mysql -u $username -p$password -N -e "use db5; update scripts set script_state ='invalid', script_handled ='encour' where (SELECT INSTR( '$script_succed' , script_name ) = 0 and (script_state='succes' or script_state !='valid')  and script_handled='traite'); update execution_plateforme set \`$PLATEFORME\`= 1  where script_id in (select script_id from scripts where (select INSTR( '$script_succed' , script_name ) !=0)) ;"
-		 # mysql --batch mysql -u $username -p$password -N -e "use db5; update execution_plateforme set \`$PLATEFORME\`= 1  where script_id in (select script_id from scripts where (select INSTR( '$script_succed' , script_name ) !=0));"
+	done
+	for script_succed in ${TEMP_SUCCESS_SCRIPTS[@]}
+	do
+		echo "----------$script_succed est invalid---------"
+			  mysql --batch mysql -u $username -p$password -N -e "use db5; update scripts set script_state ='invalid', script_handled ='encour' where (SELECT INSTR( '$script_succed' , script_name ) = 0 and (script_state='succes' or script_state !='valid')  and script_handled='traite'); update execution_plateforme set \`$PLATEFORME\`= 1  where script_id in (select script_id from scripts where (select INSTR( '$script_succed' , script_name ) !=0)) ;"
+			 # mysql --batch mysql -u $username -p$password -N -e "use db5; update execution_plateforme set \`$PLATEFORME\`= 1  where script_id in (select script_id from scripts where (select INSTR( '$script_succed' , script_name ) !=0));"
 
 
-done
-
+	done
+else 
+	echo "il n'existe pas de nouveau script executé dans la plateform $PLATEFORME sous la version $VERSION_NAME"
 	
 
+fi
