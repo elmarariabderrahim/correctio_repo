@@ -19,10 +19,10 @@ PLATEFORME=`echo $JOB_NAME |cut -d"_" -f1`
 SCRIPT_NAME=`basename "$0"`
 SCRIPT_PATH=$(readlink -f "$0")
 SCRIPT_BASEDIR_PATH=$(dirname "$SCRIPT_PATH")
-. ${SCRIPT_BASEDIR_PATH}/environment_config.sh
+. "${SCRIPT_BASEDIR_PATH}/environment_config.sh"
 
-LIST=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name from scripts where script_state='succes' and script_handled='traite' and version !='$VERSION_NAME';"  ) )
-lisrof=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name,CHECKSUM_VALUE  from scripts;"  ) )
+# LIST=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name from scripts where script_state='succes' and script_handled='traite' and version !='$VERSION_NAME';"  ) )
+# lisrof=( $( mysql --batch mysql -u $username -p$password -N -e "use db5; select script_name,CHECKSUM_VALUE  from scripts;"  ) )
 
 # log "Mise a jour du registre des scripts sql apres execution"
 # log "Recuperation des noms des scripts dont l'execution a reussie depuis $TARGET_HOST/${SQL_EXECUTION_RESULT_FILE}"
