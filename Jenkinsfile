@@ -24,7 +24,7 @@ pipeline {
 			
 		//bat "sh  ./get_scripts.sh ${WORKSPACE} ${USERNAME}  ${PASSWORD} ${RELEASE_VERSION_NUMBER_TO_USE} "
                   if(CHOIX == 'no_data')
-                       bat "sh  ./t.sh ${JOB_NAME} workspace 6.1.1 ${USERNAME} ${PASSWORD} PATT_UTILS"
+                       bat "sh  ./t.sh ${JOB_NAME} workspace 6.1.2 ${USERNAME} ${PASSWORD} PATT_UTILS"
                     else
                       echo "${JOB_NAME}"
                 }
@@ -39,9 +39,13 @@ pipeline {
    
 	 post { 
 		failure { 
+		echo "I failed"
 			script {
 		              emailext  body: 'L\'audit Sonar des projets Pixid s\'est arrÃªtÃ© sur une erreur.<BR><BR>Voir le fichier de log en piÃ¨ce jointe ou aller sur  Equipe CI/CD  Job  ', subject: "Erreurs lors de l'Audit sonar par Jenkins sur l'environnement ", to: 'elmarari.abder@gmail.com'
 			}
+            }
+            success { 
+			echo "I succed"
             }
    	 }
 }
